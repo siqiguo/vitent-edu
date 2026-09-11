@@ -8,7 +8,7 @@
 >
 > 分析日期：2026-09-11
 >
-> 原始文件：[UNESCO学生人工智能能力框架英文原版](source/standards/international/unesco_ai_competency_framework_for_students.pdf)
+> 原始文件：[UNESCO学生人工智能能力框架英文原版](../source/standards/international/unesco_ai_competency_framework_for_students.pdf)
 
 ## 一、核心结论
 
@@ -416,7 +416,7 @@ UNESCO框架最值得Vitent吸收的，不是某一张能力表，而是它背�
 
 ## 十四、参考资料
 
-- [UNESCO学生人工智能能力框架英文原版（本地归档）](source/standards/international/unesco_ai_competency_framework_for_students.pdf)
+- [UNESCO学生人工智能能力框架英文原版（本地归档）](../source/standards/international/unesco_ai_competency_framework_for_students.pdf)
 - [UNESCO官方发布页](https://www.unesco.org/en/articles/ai-competency-framework-students)
 - [项目中的少儿AI素养课程市场调研](少儿AI素养课程市场调研_v0.1.md)
 - [项目中的三年级课程标准能力要求中美对照](三年级课程标准能力要求_中美对照_v0.1.md)
