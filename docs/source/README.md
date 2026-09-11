@@ -18,9 +18,11 @@ source/
 | 分类 | 内容 | 文件数量 | 详细索引 |
 | --- | --- | ---: | --- |
 | 项目原稿 | 商业模式、完整讨论稿、单节课结构设计 | 3 份 DOCX | [project-documents](project-documents/) |
-| 中国标准 | 义务教育课程方案及16门课程标准（2022年版） | 17 份 PDF | [中国标准索引](standards/china/README.md) |
-| 美国标准 | CCSS、NGSS、CSTA、WIDA、NCAS、AI4K12 | 10 份 PDF | [美国标准索引](standards/us/README.md) |
-| 国际框架 | UNESCO学生人工智能能力框架（2024） | 1 份 PDF | [国际标准索引](standards/international/README.md) |
+| 中国标准 | 义务教育课程方案及16门课程标准（2022年版）、两份中小学AI教育指南（2025） | 17 份 PDF、2 份 HTML | [中国标准索引](standards/china/README.md) |
+| 美国标准 | CCSS、NGSS、CSTA、WIDA、NCAS、AI4K12 | 15 份 PDF | [美国标准索引](standards/us/README.md) |
+| 国际框架 | UNESCO学生人工智能能力框架（2024）、OECD/欧盟AI素养框架（2026） | 2 份 PDF | [国际标准索引](standards/international/README.md) |
+
+共归档 39 份原始文件：3 份 DOCX、34 份 PDF、2 份 HTML。
 
 ## 维护规则
 

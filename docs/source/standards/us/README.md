@@ -19,6 +19,18 @@
 | 媒体艺术与创作 | National Core Arts Standards，Media Arts，2014 | PK–8 逐年级；高中按 Proficient、Accomplished、Advanced | [NCAS Media Arts](NCAS_Media_Arts_Standards_PK-12_2014.pdf) | [National Arts Standards Media Arts](https://nationalartsstandards.org/content/media-arts) |
 | AI 素养概览 | AI4K12 Five Big Ideas in AI，Poster v2，2023 | 配套指南按 K–2、3–5、6–8、9–12 年级段组织 | [AI4K12 Five Big Ideas](AI4K12_Five_Big_Ideas_Poster_v2.pdf) | [AI4K12 Grade Band Progression Charts](https://ai4k12.org/gradeband-progression-charts/) |
 
+## AI4K12 五大观念学段进阶图
+
+| 观念 | 文件 | 页数 |
+| --- | --- | ---: |
+| 1. 感知 | [Perception Progression](AI4K12_Big_Idea_1_Perception_Progression_2020.pdf) | 4 |
+| 2. 表征与推理 | [Representation & Reasoning Progression](AI4K12_Big_Idea_2_Representation_Reasoning_Progression_2021.pdf) | 5 |
+| 3. 学习 | [Learning Progression](AI4K12_Big_Idea_3_Learning_Progression_2020.pdf) | 7 |
+| 4. 自然交互 | [Natural Interaction Progression](AI4K12_Big_Idea_4_Natural_Interaction_Progression_2022.pdf) | 7 |
+| 5. 社会影响 | [Societal Impact Progression](AI4K12_Big_Idea_5_Societal_Impact_Progression_2022.pdf) | 5 |
+
+AI4K12 将学习进阶按 K–2、3–5、6–8、9–12 组织；文件标注为持续征求反馈的草案，并非强制标准。对应分析见 [AI4K12五大观念与学段进阶](../../../research-analysis/curriculum-research/AI4K12五大观念与学段进阶_分析总结_v0.1.md)。CSTA 的 AI 能力分析见 [CSTA 2026计算机科学标准中的AI能力](../../../research-analysis/curriculum-research/CSTA_2026计算机科学标准中的AI能力_分析总结_v0.1.md)。
+
 ## 仅保留官方入口的补充标准
 
 以下资料与项目相关，但没有将文件副本收入仓库：
