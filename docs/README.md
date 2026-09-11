@@ -5,7 +5,7 @@
 | 目录 | 用途 | 内容 |
 | --- | --- | --- |
 | [curriculum-design](curriculum-design/) | 课程与学习体验设计 | 项目构想、课程结构、教学流程 |
-| [research-analysis](research-analysis/) | 研究与决策支持 | 标准分析、市场调研、商业模式 |
+| [research-analysis](research-analysis/) | 研究与决策支持 | 课程研究、市场分析 |
 | [source](source/) | 原始资料归档 | 项目原稿、中美课程标准、国际能力框架 |
 
 ## 维护约定
