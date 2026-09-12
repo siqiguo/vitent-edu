@@ -253,6 +253,8 @@ AI 素养课程不应按工具清单组织，也不宜照搬某一套单一标�
 4. 项目和学习活动设计；
 5. 评价量规与学习档案设计。
 
+初步纵向拆解见：[AI 素养课程能力标准：1–12 年级矩阵](AI素养课程能力标准_1-12年级矩阵_v0.1.md)。
+
 ## 十二、相关研究
 
 - [UNESCO 学生人工智能能力框架分析](../research-analysis/curriculum-research/UNESCO学生人工智能能力框架_分析总结_v0.1.md)
@@ -260,4 +262,3 @@ AI 素养课程不应按工具清单组织，也不宜照搬某一套单一标�
 - [中国中小学人工智能教育指南分析](../research-analysis/curriculum-research/中国中小学人工智能教育指南_分析总结_v0.1.md)
 - [AI4K12 五大观念与学段进阶分析](../research-analysis/curriculum-research/AI4K12五大观念与学段进阶_分析总结_v0.1.md)
 - [CSTA 2026 计算机科学标准中的 AI 能力分析](../research-analysis/curriculum-research/CSTA_2026计算机科学标准中的AI能力_分析总结_v0.1.md)
-
