@@ -1,0 +1,3164 @@
+{
+  "sha": "2085028eb132a21489922a8268900b9186178625",
+  "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/2085028eb132a21489922a8268900b9186178625",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a98227ba6760ba1456a2c961469cb7047f641506",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/a98227ba6760ba1456a2c961469cb7047f641506"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3d1aa30e9c294650492a206070114f4a17922e",
+      "size": 15,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/aa3d1aa30e9c294650492a206070114f4a17922e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "496ee2ca6a2f08396a4076fe43dedf3dc0da8b6d",
+      "size": 9,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/496ee2ca6a2f08396a4076fe43dedf3dc0da8b6d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ce35433177c2a9e428b13c2935da58b064aeec",
+      "size": 3250,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/48ce35433177c2a9e428b13c2935da58b064aeec"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe8e1ade60ecc746a2fe4c283fb423581cfd5666",
+      "size": 978,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fe8e1ade60ecc746a2fe4c283fb423581cfd5666"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aaa9594a6d2813150a0636d143f184a634742a5",
+      "size": 1535,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9aaa9594a6d2813150a0636d143f184a634742a5"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70705c925633798cc18b6de83c669726847fde42",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/70705c925633798cc18b6de83c669726847fde42"
+    },
+    {
+      "path": "docs/msword",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca650823c13a5b2ec1d2d95ff62d62a72b155995",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/ca650823c13a5b2ec1d2d95ff62d62a72b155995"
+    },
+    {
+      "path": "docs/msword/machinelearningforkids-apikeys.key",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f334bfef654373ba76c766848f0fdafcea95f948",
+      "size": 7704542,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f334bfef654373ba76c766848f0fdafcea95f948"
+    },
+    {
+      "path": "docs/msword/machinelearningforkids.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781b7ccb70d4d6f5e29f613f29212d7e2c9f8d77",
+      "size": 270829,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/781b7ccb70d4d6f5e29f613f29212d7e2c9f8d77"
+    },
+    {
+      "path": "docs/msword/safari-scratch-safemode.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c277f41fad982c3af39a830e6dc4a90bc5f99f",
+      "size": 10273326,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/10c277f41fad982c3af39a830e6dc4a90bc5f99f"
+    },
+    {
+      "path": "docs/msword/scratchx.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cfce441dfd1b5a0b1665460c1ffb6572428558b",
+      "size": 23966463,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3cfce441dfd1b5a0b1665460c1ffb6572428558b"
+    },
+    {
+      "path": "docs/pdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2f0ed178b69e2c2509019bc94e4130208008270",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/d2f0ed178b69e2c2509019bc94e4130208008270"
+    },
+    {
+      "path": "docs/pdf/machinelearningforkids-apikeys.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17d34db95ec370e850758e9803f33e598316dbe",
+      "size": 2363910,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f17d34db95ec370e850758e9803f33e598316dbe"
+    },
+    {
+      "path": "docs/pdf/machinelearningforkids-ibmer.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a772ca87b450e6008e7b2e31df1f02fb1688e2d5",
+      "size": 125732,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a772ca87b450e6008e7b2e31df1f02fb1688e2d5"
+    },
+    {
+      "path": "docs/pdf/machinelearningforkids-lessonplan.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c3d1c473a6ed55e9a45b6a83011a24122c90fe",
+      "size": 56815,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/29c3d1c473a6ed55e9a45b6a83011a24122c90fe"
+    },
+    {
+      "path": "docs/pdf/machinelearningforkids-schools.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1336875c820a2804853559f605fc73c21d4e180b",
+      "size": 95019,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1336875c820a2804853559f605fc73c21d4e180b"
+    },
+    {
+      "path": "docs/pdf/machinelearningforkids-scratchx.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "312e7561d95f851891140922e5ad4b9e5a512716",
+      "size": 527171,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/312e7561d95f851891140922e5ad4b9e5a512716"
+    },
+    {
+      "path": "docs/pdf/safari-scratch-safemode.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab9d7ec6e30e54d5b881e10e36dd46499dde6aaa",
+      "size": 1021323,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ab9d7ec6e30e54d5b881e10e36dd46499dde6aaa"
+    },
+    {
+      "path": "project-worksheets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3cdbeb65b2524b5af7c46b80e43e798dc8a21c3",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/d3cdbeb65b2524b5af7c46b80e43e798dc8a21c3"
+    },
+    {
+      "path": "project-worksheets/msword",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18666f68343fb989971f79cae7cef99270fc608f",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/18666f68343fb989971f79cae7cef99270fc608f"
+    },
+    {
+      "path": "project-worksheets/msword/resources-snap.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb45716c2db4c329476c63ca989be7eccccb4c8",
+      "size": 225295,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3eb45716c2db4c329476c63ca989be7eccccb4c8"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-alienlanguage-el.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5af45a848931e9d6afdc7d5f2a7c60b0641d0978",
+      "size": 7910092,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5af45a848931e9d6afdc7d5f2a7c60b0641d0978"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-alienlanguage.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ce611d52ba0b63c740ee55d42a2bff867da851",
+      "size": 7918407,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/04ce611d52ba0b63c740ee55d42a2bff867da851"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-benchmark.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ecbb4b467132af50f4c64551d6675297f51e6e5",
+      "size": 15089917,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1ecbb4b467132af50f4c64551d6675297f51e6e5"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-captcha.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ec22667dc215b28afcb10c2e79582ccf6b84850",
+      "size": 8318612,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5ec22667dc215b28afcb10c2e79582ccf6b84850"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-carorcup-crowd.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36303fc291ad1bbdd833612c5c8f514708a5c2e4",
+      "size": 10469963,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/36303fc291ad1bbdd833612c5c8f514708a5c2e4"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-carorcup.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9d9f7bbe18efaf7008c258d8ed493eb6c8e43a",
+      "size": 39912981,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8a9d9f7bbe18efaf7008c258d8ed493eb6c8e43a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-carpoolcheats.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd0b97bd113d6a2c4d2e4da5d42d8657f5a31b5",
+      "size": 9757259,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3cd0b97bd113d6a2c4d2e4da5d42d8657f5a31b5"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-catchtheball.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bccff64189dcac4ba4965d2bd97827f213b3dfc",
+      "size": 6452137,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1bccff64189dcac4ba4965d2bd97827f213b3dfc"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-chameleon-de.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93abcedf810fb0fef6cb1f936976b680b5d83a67",
+      "size": 9354360,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/93abcedf810fb0fef6cb1f936976b680b5d83a67"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-chameleon-el.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0882ab1f6e026fd36bae9e7205d2401fd9ff2522",
+      "size": 4280209,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0882ab1f6e026fd36bae9e7205d2401fd9ff2522"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-chameleon.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a2277b1ce106c7f21da12b62828c20fe863dd45",
+      "size": 7216730,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7a2277b1ce106c7f21da12b62828c20fe863dd45"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-chatbots-python.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afda709d9a49b0d5629c3d2c8a0d69d0da30feb1",
+      "size": 3987044,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/afda709d9a49b0d5629c3d2c8a0d69d0da30feb1"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-chatbots.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43fe095f514e33afc369e352e44065bf095d41fe",
+      "size": 4516953,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/43fe095f514e33afc369e352e44065bf095d41fe"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-confused-de.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c7f6786cf84e57e39e1b3a60111c64e07c83d09",
+      "size": 8727504,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4c7f6786cf84e57e39e1b3a60111c64e07c83d09"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-confused.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d14359ec0ee638f86e965709ab53615cfe87118",
+      "size": 8727034,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7d14359ec0ee638f86e965709ab53615cfe87118"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-describetheglass.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "095f73ea7a153b94d726d79543456863cbac7653",
+      "size": 31113890,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/095f73ea7a153b94d726d79543456863cbac7653"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-emojimask-el.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7b95fb366a7481a43fbb6007cc9153068d8ad62",
+      "size": 4747935,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c7b95fb366a7481a43fbb6007cc9153068d8ad62"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-emojimask.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaeeb91a63ec27b59d73c2da878b92963e61c8bf",
+      "size": 6545496,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/aaeeb91a63ec27b59d73c2da878b92963e61c8bf"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-explainability.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b1a7ec6816bb6c1ae73ed763f748eeb1d55417d",
+      "size": 13782465,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1b1a7ec6816bb6c1ae73ed763f748eeb1d55417d"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-facefinder.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a57e8c9abb3f9d1151b02c788ac036f2e0047d8e",
+      "size": 7085089,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a57e8c9abb3f9d1151b02c788ac036f2e0047d8e"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-facelock-de.docx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "73315a93f53531bccf72c1d60e0288f2ffd57812",
+      "size": 7340845,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/73315a93f53531bccf72c1d60e0288f2ffd57812"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-facelock.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f316c7b5df2e82ec3c6c8fb86c2fcd55006e4e81",
+      "size": 7330505,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f316c7b5df2e82ec3c6c8fb86c2fcd55006e4e81"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-findit.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d28b67da8ac9b2dd963b90ed4b0cd14902f9314",
+      "size": 6000356,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0d28b67da8ac9b2dd963b90ed4b0cd14902f9314"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-fooled.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5f34d19bf3f703bab809f4b16a99aacd892b0cc",
+      "size": 9535975,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c5f34d19bf3f703bab809f4b16a99aacd892b0cc"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-golf.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf166732509a91aa13478a71f215c4acf7c274c5",
+      "size": 4136977,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cf166732509a91aa13478a71f215c4acf7c274c5"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-handgestures-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c63602ace2ea876b45e7f98c47a11ef1ef642b9c",
+      "size": 7410797,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c63602ace2ea876b45e7f98c47a11ef1ef642b9c"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-handgestures.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b7152034e0df6d682cd48ab0c775460782dd93a",
+      "size": 7430079,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0b7152034e0df6d682cd48ab0c775460782dd93a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-headlines-easy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52200fe992b4001433a2df235d0a92bcf5bdb1a5",
+      "size": 4282147,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/52200fe992b4001433a2df235d0a92bcf5bdb1a5"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-headlines.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a7968eaf5b1bc197b8ac5fa375c08cc323af81",
+      "size": 8502565,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d6a7968eaf5b1bc197b8ac5fa375c08cc323af81"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-hoops.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e69188be70865e1d4ed387a7c53f27a66a9eb6",
+      "size": 7057636,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/50e69188be70865e1d4ed387a7c53f27a66a9eb6"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-inkblots-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0170431f28750681abce222da48275f1f878a4a0",
+      "size": 11103396,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0170431f28750681abce222da48275f1f878a4a0"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-inkblots.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561c99066371e3a8ed740a2a737f96cc86a69f2a",
+      "size": 11121608,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/561c99066371e3a8ed740a2a737f96cc86a69f2a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-ispy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "588ab6c313719e2d6a54ffb271a16e1308ca7846",
+      "size": 7352441,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/588ab6c313719e2d6a54ffb271a16e1308ca7846"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-jargonbuster-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e257a8e1d1b8c3023cc7978fc9ad02b66a28a37",
+      "size": 4019297,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6e257a8e1d1b8c3023cc7978fc9ad02b66a28a37"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-jargonbuster.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf2182fb942d4df617b43190b852f4eb535d003",
+      "size": 4037675,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bcf2182fb942d4df617b43190b852f4eb535d003"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-journeytoschool-el.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad1a52ad3649b9a67adb1aa306d33a90d106d561",
+      "size": 1030769,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ad1a52ad3649b9a67adb1aa306d33a90d106d561"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-journeytoschool.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6cd33621c20fc14ada68a2093e67ac94a49462",
+      "size": 2757472,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ec6cd33621c20fc14ada68a2093e67ac94a49462"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-judgeabook-appinventor.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ead67cf78792c584df80349588ccb33272e0e6",
+      "size": 12954852,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/47ead67cf78792c584df80349588ccb33272e0e6"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-judgeabook-easy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88093a1b9a1832c6516bd2827bb576897e1f330a",
+      "size": 10564181,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/88093a1b9a1832c6516bd2827bb576897e1f330a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-judgeabook.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47b5f457eb31dee696c892ab34d788ccae427abd",
+      "size": 60144271,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/47b5f457eb31dee696c892ab34d788ccae427abd"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-kiwiorstoat-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8884d66247cb62b7b25f2fa0da4b0df3b5d1be61",
+      "size": 5022028,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8884d66247cb62b7b25f2fa0da4b0df3b5d1be61"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-kiwiorstoat.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "084f165a0b3b9d855689bb7b62aa8d63f8653888",
+      "size": 5021490,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/084f165a0b3b9d855689bb7b62aa8d63f8653888"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-langmodels.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee328ec19887f2326f0b284e5e59e05ece92e382",
+      "size": 8220234,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ee328ec19887f2326f0b284e5e59e05ece92e382"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-lasereyes-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d06480e9462400a261d591c27b3531618c8920a",
+      "size": 6011248,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3d06480e9462400a261d591c27b3531618c8920a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-lasereyes-fr.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9b5af847b8dacea57c0a8d5dc77e5d38767be21",
+      "size": 5534381,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e9b5af847b8dacea57c0a8d5dc77e5d38767be21"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-lasereyes.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "806be3a3b1850a1901678c89071bd25b11efe5d2",
+      "size": 6029862,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/806be3a3b1850a1901678c89071bd25b11efe5d2"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-locatelarry.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b323c639f62b3f920569bc968a0ef316c7cca19",
+      "size": 13230195,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4b323c639f62b3f920569bc968a0ef316c7cca19"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-mailmanmax.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6412b722439b7c8bc19875c6549ca72f192b55ec",
+      "size": 24588489,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6412b722439b7c8bc19875c6549ca72f192b55ec"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-makemehappy-easy-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573f9b02d74de2bc1523652dbe6cdb0f5b3da9fd",
+      "size": 2636988,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/573f9b02d74de2bc1523652dbe6cdb0f5b3da9fd"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-makemehappy-easy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f15f637b8de247053a88ba72e5b4bb5b14600b3",
+      "size": 31822800,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9f15f637b8de247053a88ba72e5b4bb5b14600b3"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-makemehappy-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898fd9e9df4bb0127099e01a245a08a5d9396a20",
+      "size": 3032455,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/898fd9e9df4bb0127099e01a245a08a5d9396a20"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-makemehappy-python-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2706bba7d4ea31b3cb5d45e1b434fbaee913ed8",
+      "size": 858518,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c2706bba7d4ea31b3cb5d45e1b434fbaee913ed8"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-makemehappy-python.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d54d96aa96856b555dc438950fe99b51dc055e",
+      "size": 2115257,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e6d54d96aa96856b555dc438950fe99b51dc055e"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-makemehappy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c433c86e0629da94abc790091f3b6b3dae86bb4a",
+      "size": 40339443,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c433c86e0629da94abc790091f3b6b3dae86bb4a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-mobilenet.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "621363e779db0d852157dd4c76e01934caf2c26f",
+      "size": 15365174,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/621363e779db0d852157dd4c76e01934caf2c26f"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-noughtsandcrosses-event.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2381ee9ec9bf35660b1c47c201effd72bffc5238",
+      "size": 9797645,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2381ee9ec9bf35660b1c47c201effd72bffc5238"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-noughtsandcrosses-python.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "969e5056f23cc1b4e92ca7ec5fdbf1f1484216c7",
+      "size": 13761443,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/969e5056f23cc1b4e92ca7ec5fdbf1f1484216c7"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-noughtsandcrosses.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d833d234d2398fb9f8d40efb4bc336084cbf0b1",
+      "size": 17132776,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1d833d234d2398fb9f8d40efb4bc336084cbf0b1"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pacman-de.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a71d5ac311e5839cc2bfcb2425dcf72e9d5a366d",
+      "size": 22085757,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a71d5ac311e5839cc2bfcb2425dcf72e9d5a366d"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pacman-fa.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c27b7a61bdec8f115001400481ea940924f2611",
+      "size": 22077220,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0c27b7a61bdec8f115001400481ea940924f2611"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pacman.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41157763ba40a6b3406ae40a40e9f8461ea703ad",
+      "size": 5668215,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/41157763ba40a6b3406ae40a40e9f8461ea703ad"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-personas.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9a2beac340e4ff12593ab1364d1434e4d861422",
+      "size": 9928748,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d9a2beac340e4ff12593ab1364d1434e4d861422"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-phishing.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdd9a312305578eaa458a674bb6b97e3003fee90",
+      "size": 28498920,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bdd9a312305578eaa458a674bb6b97e3003fee90"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pokemonimages-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb7dd38d9fad3511e6ed1d0e7d4b32e7a43d2f57",
+      "size": 7796984,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/eb7dd38d9fad3511e6ed1d0e7d4b32e7a43d2f57"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pokemonimages.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdfc8dc8407dc916ca5fcc3c7099df90ece24b38",
+      "size": 8251292,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fdfc8dc8407dc916ca5fcc3c7099df90ece24b38"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pokemonstats-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb3ceecb417b0d4a8a5219c1d45d466dc19f81bd",
+      "size": 5560807,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fb3ceecb417b0d4a8a5219c1d45d466dc19f81bd"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-pokemonstats.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3579c53455ec18214629b2568d5e34587dabc647",
+      "size": 5934349,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3579c53455ec18214629b2568d5e34587dabc647"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-quizshow-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc050171b760d7aae270fda9cd4bb4481cb8624",
+      "size": 5772647,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8cc050171b760d7aae270fda9cd4bb4481cb8624"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-quizshow.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14aea9f0ab04b9d6e70d20a90428488825c0f6cb",
+      "size": 5919234,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/14aea9f0ab04b9d6e70d20a90428488825c0f6cb"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-ragtime.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6dc654858456540164ef9b2d97c1548e4972ef3",
+      "size": 8314034,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f6dc654858456540164ef9b2d97c1548e4972ef3"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-recommender.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "706b01177147faad4dd818fe6720d785dd6f2cf3",
+      "size": 12277369,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/706b01177147faad4dd818fe6720d785dd6f2cf3"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-relevance-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e5f143bc52e495654edfb33a5a6628e14e7e16",
+      "size": 19041499,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b6e5f143bc52e495654edfb33a5a6628e14e7e16"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-relevance.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65ec15b6d5b3ba6d4bb9624b21860e7de82b2d1a",
+      "size": 19039198,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/65ec15b6d5b3ba6d4bb9624b21860e7de82b2d1a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-rockpaperscissors-el.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "becbc98f92ec85512a4d1aaa4077d4d5d4b9648e",
+      "size": 8716031,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/becbc98f92ec85512a4d1aaa4077d4d5d4b9648e"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-rockpaperscissors.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3948f45baaff111d89c9b43d26920d393679a03b",
+      "size": 10050151,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3948f45baaff111d89c9b43d26920d393679a03b"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-schoollibrary.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6841fb58d31fa39ab0317a4ede30322c85e1bf27",
+      "size": 5731991,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6841fb58d31fa39ab0317a4ede30322c85e1bf27"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-secretcode.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e59b046c1650d7902691bd1f3e46caf1982423",
+      "size": 6717787,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/70e59b046c1650d7902691bd1f3e46caf1982423"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-semaphores.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d9e5f5759bc4d702e9e53f8c697e5ee46bdeb2",
+      "size": 11463293,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e0d9e5f5759bc4d702e9e53f8c697e5ee46bdeb2"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-shoebox.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e32d90d93ba9ccdea3fe079f1b2583c917f78b0d",
+      "size": 12567674,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e32d90d93ba9ccdea3fe079f1b2583c917f78b0d"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-shootthebug.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc596ea2b2bf70efd3685c8fd71cebfa70bd9f10",
+      "size": 11127408,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cc596ea2b2bf70efd3685c8fd71cebfa70bd9f10"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-shypanda.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "746d349540a82de5e3789e023bfcc3faa7c9c8eb",
+      "size": 9838576,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/746d349540a82de5e3789e023bfcc3faa7c9c8eb"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-smartclassroom-easy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e89e9c8152a21358dde7627988d01222f12212",
+      "size": 3867054,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f5e89e9c8152a21358dde7627988d01222f12212"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-smartclassroom-tryitnow.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0ccf62afef1ffff87315c1df77913da2bf07255",
+      "size": 3257407,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b0ccf62afef1ffff87315c1df77913da2bf07255"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-smartclassroom.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acdf7a7ec2624d5ecbada61a65028e6378f973f4",
+      "size": 3816506,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/acdf7a7ec2624d5ecbada61a65028e6378f973f4"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-snap-easy.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857e7d4b4b8f2d47ef530e471e3c8977f6dc6d3e",
+      "size": 5683271,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/857e7d4b4b8f2d47ef530e471e3c8977f6dc6d3e"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-snap-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e1b45ee504224240a44ff67a5bd3153df0f1b45",
+      "size": 1502427,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1e1b45ee504224240a44ff67a5bd3153df0f1b45"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-snap.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5767c631aa4b84ee3fb02907d9fb90507797a912",
+      "size": 14037987,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5767c631aa4b84ee3fb02907d9fb90507797a912"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-sortinghat-crowd.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83c8227690a8db8f1376f2e7507c3da508954c62",
+      "size": 3090290,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/83c8227690a8db8f1376f2e7507c3da508954c62"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-sortinghat-es.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33d4bb52c4c586badad4b3447f8a651320674686",
+      "size": 2591621,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/33d4bb52c4c586badad4b3447f8a651320674686"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-sortinghat.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86d5157d989659de13bb0509f92e88a57bd50675",
+      "size": 2583888,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/86d5157d989659de13bb0509f92e88a57bd50675"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-storyteller.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5f7d280923a41e5f5957b9007146972c4209a2d",
+      "size": 8687570,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c5f7d280923a41e5f5957b9007146972c4209a2d"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-titanic-python.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86a32d3f1a7b758cbb4fbe99c51a4c1a5b61061",
+      "size": 14396964,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e86a32d3f1a7b758cbb4fbe99c51a4c1a5b61061"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-toptrumps.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1378cd5f01e0fd6eed7bacd5f3e06562508ad986",
+      "size": 24007098,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1378cd5f01e0fd6eed7bacd5f3e06562508ad986"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-touristinfo-el.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdd90f3e64f4e221fb9b2c386839db2cef03d8bf",
+      "size": 3516432,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cdd90f3e64f4e221fb9b2c386839db2cef03d8bf"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-touristinfo.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38c18ecd999aad746f356c366ef24a072f37c7ef",
+      "size": 5397117,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/38c18ecd999aad746f356c366ef24a072f37c7ef"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-translationtelephone.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fdf9a99ffcce8723b5cb615c96924daa45aa13a",
+      "size": 14254095,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9fdf9a99ffcce8723b5cb615c96924daa45aa13a"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-virtualpet.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "311ea12efa8640605295ef74146d8c3a1d263ea8",
+      "size": 10117671,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/311ea12efa8640605295ef74146d8c3a1d263ea8"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-voicetuner.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efaae0d07fbbd4d4c076f4b9a8e3419f63c6b617",
+      "size": 3000094,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/efaae0d07fbbd4d4c076f4b9a8e3419f63c6b617"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-whattwitterthinks.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4044242321fd7358eef8bdbe7a1f9b135ddafdd",
+      "size": 5088067,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a4044242321fd7358eef8bdbe7a1f9b135ddafdd"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-zombieescape-de.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679534e8831a3da2c67d98906d824f2ac90112f5",
+      "size": 9718441,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/679534e8831a3da2c67d98906d824f2ac90112f5"
+    },
+    {
+      "path": "project-worksheets/msword/worksheet-zombieescape.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1c35646d6a3ec269abb3eeced7511d46287028",
+      "size": 40888070,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fc1c35646d6a3ec269abb3eeced7511d46287028"
+    },
+    {
+      "path": "project-worksheets/pdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5dcca3083f6c600d9281739931d7a8214051240",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/f5dcca3083f6c600d9281739931d7a8214051240"
+    },
+    {
+      "path": "project-worksheets/pdf/resources-snap-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee816fbcc1d3fd20de09ff9aa045f727f128771a",
+      "size": 181697,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ee816fbcc1d3fd20de09ff9aa045f727f128771a"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-alienlanguage-el.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1dff28a184322eacb240b9ef17407fc44cc155f",
+      "size": 6981125,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c1dff28a184322eacb240b9ef17407fc44cc155f"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-alienlanguage-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497ff80f5f3793ea9886c58154560624d439433a",
+      "size": 1948644,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/497ff80f5f3793ea9886c58154560624d439433a"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-alienlanguage.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbcbd8b39d6c9dcba1891f0b4c76ce702fe37191",
+      "size": 6959906,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/dbcbd8b39d6c9dcba1891f0b4c76ce702fe37191"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-benchmark.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5dd59d984c81e5d2c19cfd0d2a6e1f98e260d62",
+      "size": 4334908,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d5dd59d984c81e5d2c19cfd0d2a6e1f98e260d62"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-captcha.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d56bb09aca3082a046cb5b36a9eac75d115256",
+      "size": 3064510,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/89d56bb09aca3082a046cb5b36a9eac75d115256"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-carorcup-crowd.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9599332e00d03b51694da75164e43c711227b6",
+      "size": 11605020,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fa9599332e00d03b51694da75164e43c711227b6"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-carorcup-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c8473cc82981e5d34e13912d5167bc7261ae2f1",
+      "size": 1897197,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1c8473cc82981e5d34e13912d5167bc7261ae2f1"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-carorcup.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5f962efd5c2e93485ba9af4d860cb976b3a5ac9",
+      "size": 7703523,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d5f962efd5c2e93485ba9af4d860cb976b3a5ac9"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-carpoolcheats.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b3a547436514d82bb5344acc793575e546e83ca",
+      "size": 8024177,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2b3a547436514d82bb5344acc793575e546e83ca"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-catchtheball.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b3cb464bdc06a27c4475029fa125fc2cd2e180",
+      "size": 4981698,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/24b3cb464bdc06a27c4475029fa125fc2cd2e180"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chameleon-de.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e211fc25ed426298915b18bad43ecd9bb1faab72",
+      "size": 9469723,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e211fc25ed426298915b18bad43ecd9bb1faab72"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chameleon-el.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b44444b30b164e50be5718ad12779f9593ed8c6",
+      "size": 4873246,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7b44444b30b164e50be5718ad12779f9593ed8c6"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chameleon-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d5f9c2ed3c3dbb09d023606d2a97508471e164a",
+      "size": 1661949,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4d5f9c2ed3c3dbb09d023606d2a97508471e164a"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chameleon.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5367aaf5e08af6613aad545bb3ee5997c103b7a",
+      "size": 7337318,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e5367aaf5e08af6613aad545bb3ee5997c103b7a"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chatbots-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "889ae3d27f1c2793d30c5cf211b45d7959781e9d",
+      "size": 2065951,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/889ae3d27f1c2793d30c5cf211b45d7959781e9d"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chatbots-python.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae911bb3c14107d2b2f21af9c971f8c913e350d",
+      "size": 4211794,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4ae911bb3c14107d2b2f21af9c971f8c913e350d"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-chatbots.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c86ea8fb2a27364710999a27642e9c74d279ed40",
+      "size": 4916447,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c86ea8fb2a27364710999a27642e9c74d279ed40"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-confused-de.pdf",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "23236a21f951c7f75bcfe6e9be257e5e94ceb1ae",
+      "size": 1169500,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/23236a21f951c7f75bcfe6e9be257e5e94ceb1ae"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-confused.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc693e66a4cefc366e936d34011d256cf2a4d324",
+      "size": 9223960,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/dc693e66a4cefc366e936d34011d256cf2a4d324"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-describetheglass.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ffe1990704ffcb6f7939c788bbb67c74cbb615",
+      "size": 4518361,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/90ffe1990704ffcb6f7939c788bbb67c74cbb615"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-emojimask-el.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84d8c62e1794079e3bc2bf3056ec9b0a70e38eaa",
+      "size": 4893437,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/84d8c62e1794079e3bc2bf3056ec9b0a70e38eaa"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-emojimask.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554113224326211e86618d357e4f1a902e6d3ea9",
+      "size": 6628871,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/554113224326211e86618d357e4f1a902e6d3ea9"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-explainability.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b138c168ffabd88dacb4ba88c6a1f84da61676d",
+      "size": 14326438,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8b138c168ffabd88dacb4ba88c6a1f84da61676d"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-facefinder.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6495b7ff0e448666b01eef999f03bd5d7ef3e2e5",
+      "size": 7140951,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6495b7ff0e448666b01eef999f03bd5d7ef3e2e5"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-facelock-de.pdf",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6efdb12cc359b202aea57d2d25a2ccb4153da17d",
+      "size": 769901,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6efdb12cc359b202aea57d2d25a2ccb4153da17d"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-facelock-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50b919dfcae6136ba26d504ab50ea8294303e374",
+      "size": 1300525,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/50b919dfcae6136ba26d504ab50ea8294303e374"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-facelock.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a5e92b0af0e8f2024f0047ec097d3f930d818e5",
+      "size": 7038204,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3a5e92b0af0e8f2024f0047ec097d3f930d818e5"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-findit-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "471782796ec5f9e6eb889f8128150a91caa640eb",
+      "size": 2751426,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/471782796ec5f9e6eb889f8128150a91caa640eb"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-findit.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80618386c956b2a8d62b934ae506d34ac980a09",
+      "size": 5661010,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a80618386c956b2a8d62b934ae506d34ac980a09"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-fooled-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f4bd84989b2564250cb0b17d141a3b615c57e1",
+      "size": 2069995,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/62f4bd84989b2564250cb0b17d141a3b615c57e1"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-fooled.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2d6a77306d8b94293c71ebe5bc6fad51ed4f17",
+      "size": 9877694,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2f2d6a77306d8b94293c71ebe5bc6fad51ed4f17"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-golf.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93cff55968d3b37fb173bfdcefd49ade3a427870",
+      "size": 3577074,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/93cff55968d3b37fb173bfdcefd49ade3a427870"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-handgestures-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1ca2d14bb1fc1025b8bfbd68df047ca5697ff6",
+      "size": 2986598,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/be1ca2d14bb1fc1025b8bfbd68df047ca5697ff6"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-handgestures.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc7583ad6840ae38c5864ea58530bc3b33f21ae",
+      "size": 7573661,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bdc7583ad6840ae38c5864ea58530bc3b33f21ae"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-headlines-easy-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f22c6e84553139f4d0d5058241445e6b644ce012",
+      "size": 2392563,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f22c6e84553139f4d0d5058241445e6b644ce012"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-headlines-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb649bfd6bd0ec95ba0591a75f05750530506c0",
+      "size": 4459169,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2bb649bfd6bd0ec95ba0591a75f05750530506c0"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-headlines-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4550978b44db06894d3c4d7ca148015f8855e0ef",
+      "size": 4014782,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4550978b44db06894d3c4d7ca148015f8855e0ef"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-headlines.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "446f1a1b31c8685f374fa0371569af052b84111f",
+      "size": 8723565,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/446f1a1b31c8685f374fa0371569af052b84111f"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-hoops.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a2920e97903eb17307d4a058fdf25828746294",
+      "size": 4014073,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f4a2920e97903eb17307d4a058fdf25828746294"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-inkblots-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1ff61fb44e1089fc43ab362abe6020cb8ab19f",
+      "size": 3691238,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9a1ff61fb44e1089fc43ab362abe6020cb8ab19f"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-inkblots.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a0ee805441394750972b37e6d1437e3cf9b8720",
+      "size": 11857389,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0a0ee805441394750972b37e6d1437e3cf9b8720"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-ispy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d150fd9298bacba73deeeae66c35a630dc9e4032",
+      "size": 7457845,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d150fd9298bacba73deeeae66c35a630dc9e4032"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-jargonbuster-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd8eabc69b328c03395d30eae1eef531f6636016",
+      "size": 2274260,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cd8eabc69b328c03395d30eae1eef531f6636016"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-jargonbuster.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "788e0980aa041762836c6ff6bda8b4ebcbf6da1a",
+      "size": 4605921,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/788e0980aa041762836c6ff6bda8b4ebcbf6da1a"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-journeytoschool-el.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c35a7ef1bd3f13c109f35467b98f230e0c55b70",
+      "size": 1445140,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4c35a7ef1bd3f13c109f35467b98f230e0c55b70"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-journeytoschool-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b440b0a2b4aa917d3e76ecc8b63244bd09bf76da",
+      "size": 1224194,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b440b0a2b4aa917d3e76ecc8b63244bd09bf76da"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-journeytoschool.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae61066b689a4035f907950b3143f7a4c79073bb",
+      "size": 2459067,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ae61066b689a4035f907950b3143f7a4c79073bb"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-judgeabook-appinventor.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bac44d11fe73342d91fc56748ae38445a9a4284",
+      "size": 12757023,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3bac44d11fe73342d91fc56748ae38445a9a4284"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-judgeabook-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8906a8d261838c7e6fd436b39c768875c1bf24a",
+      "size": 10025750,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f8906a8d261838c7e6fd436b39c768875c1bf24a"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-judgeabook-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb20a8b3117298f3e4637396b05948b39dadb97f",
+      "size": 2294923,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cb20a8b3117298f3e4637396b05948b39dadb97f"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-judgeabook.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2996cba98760bcc0d819614c7cadbfa98a0fd806",
+      "size": 5464480,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2996cba98760bcc0d819614c7cadbfa98a0fd806"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-kiwiorstoat-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623b539ac4befe47bb70bbaabdef603ca2096553",
+      "size": 1843919,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/623b539ac4befe47bb70bbaabdef603ca2096553"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-kiwiorstoat.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f41092bca536f6ec5a16816cd6ac14fb913f917",
+      "size": 5273998,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0f41092bca536f6ec5a16816cd6ac14fb913f917"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-langmodels.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "407143896593686018f384dc39db1b696ef6469e",
+      "size": 7327536,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/407143896593686018f384dc39db1b696ef6469e"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-lasereyes-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5056859ab66802daf95b9afc1a6f67d0240a6dcd",
+      "size": 2169860,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5056859ab66802daf95b9afc1a6f67d0240a6dcd"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-lasereyes-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c28df8ad1dda2a894d2f239291b9829c9071a58c",
+      "size": 1853980,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c28df8ad1dda2a894d2f239291b9829c9071a58c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-lasereyes.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3f9be700da353153691f0ed95f59fdb48c2d529",
+      "size": 6228195,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b3f9be700da353153691f0ed95f59fdb48c2d529"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-locatelarry-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21587ecf782a37675dbac03c2aa612106919a251",
+      "size": 2705940,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/21587ecf782a37675dbac03c2aa612106919a251"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-locatelarry.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef8d2833185d6b49ed0c7095e2b9938db7d3bbd",
+      "size": 12468496,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1ef8d2833185d6b49ed0c7095e2b9938db7d3bbd"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mailmanmax-de.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9613834384f62b1fe3915869037607bd9f4ce70c",
+      "size": 5472196,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9613834384f62b1fe3915869037607bd9f4ce70c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mailmanmax-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0955d481c52bcafd30f406ceb0f51c3e9c322a29",
+      "size": 2933432,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0955d481c52bcafd30f406ceb0f51c3e9c322a29"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mailmanmax-ja.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db50a3fc2f98e95658ada0c01645cdfc94823262",
+      "size": 5681489,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/db50a3fc2f98e95658ada0c01645cdfc94823262"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mailmanmax-ptbr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8780fc6de1806309527ccf4b810ba80f3f556297",
+      "size": 5743729,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8780fc6de1806309527ccf4b810ba80f3f556297"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mailmanmax-zhcn.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b34a3dc55d233e3c5d053f8f162d6010d2d645b",
+      "size": 5839695,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5b34a3dc55d233e3c5d053f8f162d6010d2d645b"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mailmanmax.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "130dd2580f13aefa3c98dd9613b9f060494a436c",
+      "size": 7421389,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/130dd2580f13aefa3c98dd9613b9f060494a436c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-de.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "920fd3519f9c3afbf1e7548648c72b101bbf4fc5",
+      "size": 2763585,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/920fd3519f9c3afbf1e7548648c72b101bbf4fc5"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-easy-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c15c15580442daa6922ac7990263ae7462de8bd",
+      "size": 1456134,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7c15c15580442daa6922ac7990263ae7462de8bd"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573d6230c352497e6a125ebd88ee424369abbcdd",
+      "size": 2868930,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/573d6230c352497e6a125ebd88ee424369abbcdd"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9012db54a8b5063e212b12bb01f147fd898bed75",
+      "size": 1880803,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9012db54a8b5063e212b12bb01f147fd898bed75"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-ja.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cd2c2083db10780ff2f0b230ccb2baf77ccb3c7",
+      "size": 2690735,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9cd2c2083db10780ff2f0b230ccb2baf77ccb3c7"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-ptbr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ff9a981b89414f9d08c121cef4ea5723772fbb7",
+      "size": 2668537,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9ff9a981b89414f9d08c121cef4ea5723772fbb7"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-python-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87bb50f1076d43d70a5c81fa363c758e3f89f745",
+      "size": 944710,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/87bb50f1076d43d70a5c81fa363c758e3f89f745"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-python.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6662b7e1fc5a70fc70b05cf5527a8845ec8adfab",
+      "size": 2300799,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6662b7e1fc5a70fc70b05cf5527a8845ec8adfab"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-svse.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30557865a55197c18bb84e97b08602d889fc6a47",
+      "size": 3835449,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/30557865a55197c18bb84e97b08602d889fc6a47"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy-zhcn.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1a678be708720f77994fe2b29311f7e62206ed",
+      "size": 2740763,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ee1a678be708720f77994fe2b29311f7e62206ed"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-makemehappy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d44da0c228ff8da03c51f4aefac59b83431434c",
+      "size": 3535384,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2d44da0c228ff8da03c51f4aefac59b83431434c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-mobilenet.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cffb64d815fc67ef0a7f7b474311055d12964b7",
+      "size": 8019560,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3cffb64d815fc67ef0a7f7b474311055d12964b7"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-noughtsandcrosses-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0181cce47df27f89d8dc0ef574aa242a0c6761",
+      "size": 2962662,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6f0181cce47df27f89d8dc0ef574aa242a0c6761"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-noughtsandcrosses-event.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33203847afdd86feabbf7455e2703721fc5c8ad7",
+      "size": 9906643,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/33203847afdd86feabbf7455e2703721fc5c8ad7"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-noughtsandcrosses-python.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c66aa6257bf9fbc1c302d993f544b0c9d8b08b8",
+      "size": 2783372,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2c66aa6257bf9fbc1c302d993f544b0c9d8b08b8"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-noughtsandcrosses.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8624fc7eadd49d649895789ed1a75c30bbff00f2",
+      "size": 15932441,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8624fc7eadd49d649895789ed1a75c30bbff00f2"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pacman-de.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f30a9525f750e4bcbff2068eefa0e9a610766bda",
+      "size": 4668190,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f30a9525f750e4bcbff2068eefa0e9a610766bda"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pacman-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f61d232b0f45cbc5ddc716ba6df9a7731a1649a3",
+      "size": 1883693,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f61d232b0f45cbc5ddc716ba6df9a7731a1649a3"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pacman-fa.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4a40b0d8fdaae6f76b83e0ee37b6ebd8795abc",
+      "size": 4452785,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2a4a40b0d8fdaae6f76b83e0ee37b6ebd8795abc"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pacman.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d85032290382c53a5e3d0bd347002f1aa1701f7",
+      "size": 4809144,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3d85032290382c53a5e3d0bd347002f1aa1701f7"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-personas.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd707a3fd81282f4e624af2ff46738c57274f10b",
+      "size": 9479545,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/dd707a3fd81282f4e624af2ff46738c57274f10b"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-phishing-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4dac79db0a5f55f177a25ed4b196658fe722fcb",
+      "size": 1851737,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d4dac79db0a5f55f177a25ed4b196658fe722fcb"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-phishing.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b8757f2b94cbf76b95cdbdae1c5e03c5951b355",
+      "size": 2611725,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3b8757f2b94cbf76b95cdbdae1c5e03c5951b355"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pokemonimages-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d443b3e66509e81b81b19a64a02b278e630f0f",
+      "size": 1593025,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/26d443b3e66509e81b81b19a64a02b278e630f0f"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pokemonimages.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e08dc8677f5679f211aca0472ef0fa358d3c271",
+      "size": 7306166,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9e08dc8677f5679f211aca0472ef0fa358d3c271"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pokemonstats-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c21331a7b3021c5ff94578ea599efefc607ad7b6",
+      "size": 1133657,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c21331a7b3021c5ff94578ea599efefc607ad7b6"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-pokemonstats.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eef8aefc45967d7f3724b6115a501a8d60ca88d",
+      "size": 5229470,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8eef8aefc45967d7f3724b6115a501a8d60ca88d"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-quizshow-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e16a02eed80a550062eef429309eba4c4978c7",
+      "size": 1840460,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/06e16a02eed80a550062eef429309eba4c4978c7"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-quizshow.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1bbb04d946232e80a0b707844e9644d2c23b1c9",
+      "size": 6110370,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f1bbb04d946232e80a0b707844e9644d2c23b1c9"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-ragtime.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa520424c977d886a849ab6c0aefd7cca6946ca",
+      "size": 7011307,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/faa520424c977d886a849ab6c0aefd7cca6946ca"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-recommender.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a978e6acdd964a60d46be885c335cc72c601b384",
+      "size": 8156365,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a978e6acdd964a60d46be885c335cc72c601b384"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-relevance-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857d80ff2b8c1812109025f39e39b610f0c779a1",
+      "size": 5243248,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/857d80ff2b8c1812109025f39e39b610f0c779a1"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-relevance.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ff3f43ed024b0357d4dc4a49178907fe50997e",
+      "size": 19667354,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f5ff3f43ed024b0357d4dc4a49178907fe50997e"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-rockpaperscissors-el.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a276c98eb90a76db43c6f9fab7d6e55330eb5830",
+      "size": 9154527,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a276c98eb90a76db43c6f9fab7d6e55330eb5830"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-rockpaperscissors-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2885a58dabf6aa2ed680e1ec1a5015e8a6b4bc3b",
+      "size": 1791127,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2885a58dabf6aa2ed680e1ec1a5015e8a6b4bc3b"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-rockpaperscissors.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7573eaa44ccb34246f84710b90cebecea841953",
+      "size": 10375809,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f7573eaa44ccb34246f84710b90cebecea841953"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-schoollibrary-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3778e16b28f026b843a9d20fc17b5c4f884b1ba5",
+      "size": 2730500,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3778e16b28f026b843a9d20fc17b5c4f884b1ba5"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-schoollibrary.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058b8e53a78c773c5acac03239bcf8b604e9d389",
+      "size": 4842670,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/058b8e53a78c773c5acac03239bcf8b604e9d389"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-secretcode-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6981be0b578697ddf685f83c954197b4ea321e39",
+      "size": 1983323,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6981be0b578697ddf685f83c954197b4ea321e39"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-secretcode.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "273bf231a6d98b21ba257e9d9ccfceedf938aff0",
+      "size": 6789835,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/273bf231a6d98b21ba257e9d9ccfceedf938aff0"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-semaphores.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af5bac2b684d77f720acb7cd97d6aef65e556415",
+      "size": 11531456,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/af5bac2b684d77f720acb7cd97d6aef65e556415"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-shoebox.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f048c71e0a0e93c98b287ae9895efd37b20a8233",
+      "size": 9882117,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f048c71e0a0e93c98b287ae9895efd37b20a8233"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-shootthebug.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ef277be2f5b0311b6ede9163df233590dadaf8",
+      "size": 9368407,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c4ef277be2f5b0311b6ede9163df233590dadaf8"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-shypanda-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3332eb6eafd7ac1783eeb00e0cec0c0e3e96447",
+      "size": 2331645,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a3332eb6eafd7ac1783eeb00e0cec0c0e3e96447"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-shypanda.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f93de074d179969920db64915f9a50259145d53",
+      "size": 10455242,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8f93de074d179969920db64915f9a50259145d53"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom-easy-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8277b53c0673d3fbef8b017f0432a13090a124d9",
+      "size": 2036150,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8277b53c0673d3fbef8b017f0432a13090a124d9"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea1e45382980bc62d575850ad391ce6fd566978",
+      "size": 3985513,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3ea1e45382980bc62d575850ad391ce6fd566978"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20455e1693f4919052df58489e3803335e502878",
+      "size": 1892716,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/20455e1693f4919052df58489e3803335e502878"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom-nlbe.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e1b8d1a8f141efaa0414d7b52a0529eba62be8",
+      "size": 10756011,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/40e1b8d1a8f141efaa0414d7b52a0529eba62be8"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom-tryitnow-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2baf69a207dbbf98575b679c9b6d76ee227866b1",
+      "size": 1733334,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2baf69a207dbbf98575b679c9b6d76ee227866b1"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom-tryitnow.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d004cf47b306cc27840ef9824531fc2f7c72db3",
+      "size": 3165892,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1d004cf47b306cc27840ef9824531fc2f7c72db3"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-smartclassroom.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c799a2f83743e4541bbb063d885e435b19ba9160",
+      "size": 3999353,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c799a2f83743e4541bbb063d885e435b19ba9160"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-snap-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc7c65c3bc532ba6134e9e4020a3c62235cdb337",
+      "size": 5914319,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fc7c65c3bc532ba6134e9e4020a3c62235cdb337"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-snap-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f9274b8cac8321ddd704695941a1904c839901e",
+      "size": 1911025,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4f9274b8cac8321ddd704695941a1904c839901e"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-snap.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c523755489894f93835fa8147d82853b184f42e",
+      "size": 14726061,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2c523755489894f93835fa8147d82853b184f42e"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-sortinghat-crowd-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b91bdb532cfb41e871c9301e45fa276f115b83fe",
+      "size": 1642211,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b91bdb532cfb41e871c9301e45fa276f115b83fe"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-sortinghat-crowd.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28510c6b6b8092f75c937a12f6866ccdd4c76f5c",
+      "size": 3254808,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/28510c6b6b8092f75c937a12f6866ccdd4c76f5c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-sortinghat-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f882a3a9b8e4c17b636859a8850bcd45ef1e1dd",
+      "size": 1542975,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8f882a3a9b8e4c17b636859a8850bcd45ef1e1dd"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-sortinghat.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab497891ad99b9219c4ad45705e232a5fe80eec9",
+      "size": 2777755,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ab497891ad99b9219c4ad45705e232a5fe80eec9"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-storyteller.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "910c23206715ffbc624aa01797311d0ace3d015b",
+      "size": 7678120,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/910c23206715ffbc624aa01797311d0ace3d015b"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-titanic-python-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a74e188e933b37a7af825bba5eee113e5fb8e8e",
+      "size": 937435,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5a74e188e933b37a7af825bba5eee113e5fb8e8e"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-titanic-python.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b58b0bb4b0f426a4bc94c2e0229f2258551c320c",
+      "size": 3204299,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b58b0bb4b0f426a4bc94c2e0229f2258551c320c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-toptrumps-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7e8a090363d4660ae0428dbfba675171b3b7a1c",
+      "size": 3386463,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e7e8a090363d4660ae0428dbfba675171b3b7a1c"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-toptrumps.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84182231121db73c01d84774983ab0c7b327683b",
+      "size": 8269429,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/84182231121db73c01d84774983ab0c7b327683b"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-touristinfo-el.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8bf6f69c756e8bb30dc14d3f3991d3c57cc2fce",
+      "size": 3476328,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d8bf6f69c756e8bb30dc14d3f3991d3c57cc2fce"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-touristinfo-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ad47de5b13c8c822ffd90f17d91bb16d624246",
+      "size": 2398492,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/73ad47de5b13c8c822ffd90f17d91bb16d624246"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-touristinfo.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af642556fb741243dce5cc7795f4b37ed8968e55",
+      "size": 5826502,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/af642556fb741243dce5cc7795f4b37ed8968e55"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-translationtelephone.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15a77f76bee03771d29e480bea59503e11842a84",
+      "size": 11907808,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/15a77f76bee03771d29e480bea59503e11842a84"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-virtualpet-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cbca96be8cf035994de9c4e4834bee6170223f2",
+      "size": 2196635,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8cbca96be8cf035994de9c4e4834bee6170223f2"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-virtualpet.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e4f1b7dc678c853104c5619047f9bfbea774cb9",
+      "size": 10203837,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3e4f1b7dc678c853104c5619047f9bfbea774cb9"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-voicetuner.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e469f87afc8418af94a0c000d97f91ce198633",
+      "size": 2414016,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b7e469f87afc8418af94a0c000d97f91ce198633"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-whattwitterthinks-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368c2025d20410ac76927cac90972e88eb4a4859",
+      "size": 2719735,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/368c2025d20410ac76927cac90972e88eb4a4859"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-whattwitterthinks.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f209a710af4c7c647db69b32c4930c544a056b35",
+      "size": 5379684,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f209a710af4c7c647db69b32c4930c544a056b35"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-zombieescape-de.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2da8a88daa8a3390764ad56ecd44ccd34d3a6b89",
+      "size": 10213281,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2da8a88daa8a3390764ad56ecd44ccd34d3a6b89"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-zombieescape-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d0ff369e9aec82afc104ee5d6970ea9a8125eeb",
+      "size": 3289392,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7d0ff369e9aec82afc104ee5d6970ea9a8125eeb"
+    },
+    {
+      "path": "project-worksheets/pdf/worksheet-zombieescape.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48fe8b09289242041edd302aa03ded1dd7cba8cd",
+      "size": 8189979,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/48fe8b09289242041edd302aa03ded1dd7cba8cd"
+    },
+    {
+      "path": "scratch-templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3227ca9a586555769e862a89ccb44d4d3edc511",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/c3227ca9a586555769e862a89ccb44d4d3edc511"
+    },
+    {
+      "path": "scratch-templates/alien-language.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7364d07d26547f9988128a468377144d753c4e46",
+      "size": 199046,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7364d07d26547f9988128a468377144d753c4e46"
+    },
+    {
+      "path": "scratch-templates/book-template-newspapers.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a28cd15cce8a59c31b36388e5cf714a4f46acd15",
+      "size": 199006,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a28cd15cce8a59c31b36388e5cf714a4f46acd15"
+    },
+    {
+      "path": "scratch-templates/car-or-cup.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c58ba0f281b47b0a6c4e0b1e0067a0ab7203e903",
+      "size": 4010419,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c58ba0f281b47b0a6c4e0b1e0067a0ab7203e903"
+    },
+    {
+      "path": "scratch-templates/chameleon.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b41421e6b9e7ea0cd51b6eafda2462f855a92f0",
+      "size": 30416,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9b41421e6b9e7ea0cd51b6eafda2462f855a92f0"
+    },
+    {
+      "path": "scratch-templates/chatbots.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a1008e350d9861a2d2d14f6ba963b093801938",
+      "size": 300395,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a1a1008e350d9861a2d2d14f6ba963b093801938"
+    },
+    {
+      "path": "scratch-templates/confused.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38de0b8551d77adb16bde3f6f4b59ea2c2ff1a8a",
+      "size": 1278975,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/38de0b8551d77adb16bde3f6f4b59ea2c2ff1a8a"
+    },
+    {
+      "path": "scratch-templates/describe-the-glass.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ebd4f414f921ef378d85c65767c164d11cc02e",
+      "size": 21083,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/49ebd4f414f921ef378d85c65767c164d11cc02e"
+    },
+    {
+      "path": "scratch-templates/explainability.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbde79bf902690a159cd5d69126850cb2403c7d7",
+      "size": 38512,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/dbde79bf902690a159cd5d69126850cb2403c7d7"
+    },
+    {
+      "path": "scratch-templates/flobzy.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc6a5572475f3cb8f12114464f6ddc1dbf1a8fae",
+      "size": 3271249,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bc6a5572475f3cb8f12114464f6ddc1dbf1a8fae"
+    },
+    {
+      "path": "scratch-templates/fooled.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e7621af574bc7c2bc0d6889cdf7ddbb57c7af6d",
+      "size": 1651406,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5e7621af574bc7c2bc0d6889cdf7ddbb57c7af6d"
+    },
+    {
+      "path": "scratch-templates/headlines.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "729fdc60094812bb2d34422793c9c66005dff99a",
+      "size": 6449,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/729fdc60094812bb2d34422793c9c66005dff99a"
+    },
+    {
+      "path": "scratch-templates/inkblots.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edb11e601d81c77d1c6f8bd5849f1c042d400a4f",
+      "size": 1170105,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/edb11e601d81c77d1c6f8bd5849f1c042d400a4f"
+    },
+    {
+      "path": "scratch-templates/judge-a-book.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6785bddddf180834a921330c0fb50503e8b5919c",
+      "size": 13626,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6785bddddf180834a921330c0fb50503e8b5919c"
+    },
+    {
+      "path": "scratch-templates/judge-a-book.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f50ccfbc5325c7fe0e81cf992852bf311c4cf5",
+      "size": 14904,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f3f50ccfbc5325c7fe0e81cf992852bf311c4cf5"
+    },
+    {
+      "path": "scratch-templates/kiwi-stoat.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5611b94a7f13a42c95481d9c0cc6bff7babbb114",
+      "size": 15826329,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5611b94a7f13a42c95481d9c0cc6bff7babbb114"
+    },
+    {
+      "path": "scratch-templates/laser-eyes.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf632b71a754232e48ac287c0db882132f29087",
+      "size": 381395,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ccf632b71a754232e48ac287c0db882132f29087"
+    },
+    {
+      "path": "scratch-templates/locate-larry.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e68437e4f47216265f307c4771241517e6dcd2",
+      "size": 2231643,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c9e68437e4f47216265f307c4771241517e6dcd2"
+    },
+    {
+      "path": "scratch-templates/locate-larry.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db747eaf7957dc8eadb42a569262ef18aef93e3c",
+      "size": 2157180,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/db747eaf7957dc8eadb42a569262ef18aef93e3c"
+    },
+    {
+      "path": "scratch-templates/mailman-max-finished.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab458d6d3ec98addd47b0c5903eb4890c36f91d2",
+      "size": 147898,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ab458d6d3ec98addd47b0c5903eb4890c36f91d2"
+    },
+    {
+      "path": "scratch-templates/mailman-max.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23c6c72746f016f036fc3e7599e3f37bd9889685",
+      "size": 147247,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/23c6c72746f016f036fc3e7599e3f37bd9889685"
+    },
+    {
+      "path": "scratch-templates/mailman-max.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224da20e352a4dc34b79693cbf7ca54c68c4d798",
+      "size": 439628,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/224da20e352a4dc34b79693cbf7ca54c68c4d798"
+    },
+    {
+      "path": "scratch-templates/noughts-and-crosses.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff022dc9df2250d6b326594787048913d850b4c",
+      "size": 1415092,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7ff022dc9df2250d6b326594787048913d850b4c"
+    },
+    {
+      "path": "scratch-templates/noughts-and-crosses.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6a91aa471f92721009c6eceff47ea11ae9fca9",
+      "size": 11556,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ec6a91aa471f92721009c6eceff47ea11ae9fca9"
+    },
+    {
+      "path": "scratch-templates/pacman.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5f765f2b0a758d68f591ff859494613e6e4299",
+      "size": 6559,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9c5f765f2b0a758d68f591ff859494613e6e4299"
+    },
+    {
+      "path": "scratch-templates/play-it-back.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b37af8da4001b197e94e0300b254a5e9181e247",
+      "size": 43878,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8b37af8da4001b197e94e0300b254a5e9181e247"
+    },
+    {
+      "path": "scratch-templates/pokemon-images.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48fab75ed3666f93c5cfe0b5e875cc34eecb9c5",
+      "size": 907238,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c48fab75ed3666f93c5cfe0b5e875cc34eecb9c5"
+    },
+    {
+      "path": "scratch-templates/pokemon-statistics.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fbcfa7a6619a9e87df5bea535aae360775ba158",
+      "size": 1952938,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/2fbcfa7a6619a9e87df5bea535aae360775ba158"
+    },
+    {
+      "path": "scratch-templates/quiz-show.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e3257f5091cc78463687eca56305598b7b0efbb",
+      "size": 2111076,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9e3257f5091cc78463687eca56305598b7b0efbb"
+    },
+    {
+      "path": "scratch-templates/rock-paper-scissors.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e22ffb9ffbb5f7caad765668963f9164292a7797",
+      "size": 80372,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e22ffb9ffbb5f7caad765668963f9164292a7797"
+    },
+    {
+      "path": "scratch-templates/rock-paper-scissors.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c857119a0fe62cc7f6015b270546cd12a02a850",
+      "size": 88073,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8c857119a0fe62cc7f6015b270546cd12a02a850"
+    },
+    {
+      "path": "scratch-templates/secret-code.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5689d6a1b228514981096a1465d54f995a795791",
+      "size": 91914,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5689d6a1b228514981096a1465d54f995a795791"
+    },
+    {
+      "path": "scratch-templates/shoot-the-bug.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c851d6dd08488e62c1db885c1a35df6079ae1af9",
+      "size": 468785,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c851d6dd08488e62c1db885c1a35df6079ae1af9"
+    },
+    {
+      "path": "scratch-templates/shy-panda.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3329817118943b0548999a6b556f59fe9bbe33",
+      "size": 245903,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ac3329817118943b0548999a6b556f59fe9bbe33"
+    },
+    {
+      "path": "scratch-templates/shy-panda.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14809cec19a5d9c7ea86a6dfabd40d9bc2470ebc",
+      "size": 237003,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/14809cec19a5d9c7ea86a6dfabd40d9bc2470ebc"
+    },
+    {
+      "path": "scratch-templates/smart-classroom-easy.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65dd8c19dfea8d185b17d495ba71e95b57ce0e59",
+      "size": 252493,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/65dd8c19dfea8d185b17d495ba71e95b57ce0e59"
+    },
+    {
+      "path": "scratch-templates/smart-classroom.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58c146425f845dce1e1d76eb7f6bdd9d9d0c7921",
+      "size": 252379,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/58c146425f845dce1e1d76eb7f6bdd9d9d0c7921"
+    },
+    {
+      "path": "scratch-templates/snap.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ab29fd806041bd4581e09d522bbc66099f06251",
+      "size": 52264,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5ab29fd806041bd4581e09d522bbc66099f06251"
+    },
+    {
+      "path": "scratch-templates/snap.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "402d4da4d1912a949bcde1ec097a609da67cfaa7",
+      "size": 47167,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/402d4da4d1912a949bcde1ec097a609da67cfaa7"
+    },
+    {
+      "path": "scratch-templates/sortinghat.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06113ebc2200b36a9570444d7e105cd174586b32",
+      "size": 12232,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/06113ebc2200b36a9570444d7e105cd174586b32"
+    },
+    {
+      "path": "scratch-templates/top-trumps.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31361c2cc3e8fa680abc93ea0f12c762aa181d51",
+      "size": 2875020,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/31361c2cc3e8fa680abc93ea0f12c762aa181d51"
+    },
+    {
+      "path": "scratch-templates/top-trumps.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "372e309d7c56f7efa955e4e973284f6d7994885d",
+      "size": 2637458,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/372e309d7c56f7efa955e4e973284f6d7994885d"
+    },
+    {
+      "path": "scratch-templates/tourist-info-easy.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8545a5db9fa1580393093c814fbf17b12f99b205",
+      "size": 152472,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8545a5db9fa1580393093c814fbf17b12f99b205"
+    },
+    {
+      "path": "scratch-templates/tourist-info-easy.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49efa22ca05455ed0367198e6a39a1db2dea5a63",
+      "size": 218072,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/49efa22ca05455ed0367198e6a39a1db2dea5a63"
+    },
+    {
+      "path": "scratch-templates/tourist-info.sbx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bdc461df69af96b54f2f7e73e8f58954c4686c4",
+      "size": 216687,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/5bdc461df69af96b54f2f7e73e8f58954c4686c4"
+    },
+    {
+      "path": "scratch-templates/voice-graph.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b71b46e3d9616264622f2f781be7b4336fd9762",
+      "size": 4732,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6b71b46e3d9616264622f2f781be7b4336fd9762"
+    },
+    {
+      "path": "scratch-templates/voice-tuner.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab40c55d70d80cad4c90ed490d9b5927b61d78a1",
+      "size": 4841,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ab40c55d70d80cad4c90ed490d9b5927b61d78a1"
+    },
+    {
+      "path": "scratch-templates/what-does-twitter-think.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3647e14b0ef0e8e3ece9a0cef55b14c976da3320",
+      "size": 91729,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3647e14b0ef0e8e3ece9a0cef55b14c976da3320"
+    },
+    {
+      "path": "scratch-templates/zombie-escape.sb3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23bacf57f53f07a4821b9266e12c2d275ad34fba",
+      "size": 1833212,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/23bacf57f53f07a4821b9266e12c2d275ad34fba"
+    },
+    {
+      "path": "teachers-notes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c54b48e75b1509d449ecaa10d89efe313ceda8e",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/7c54b48e75b1509d449ecaa10d89efe313ceda8e"
+    },
+    {
+      "path": "teachers-notes/msword",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f219716f06e2fce4c5356b6ac06095d5a2e8f35",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/1f219716f06e2fce4c5356b6ac06095d5a2e8f35"
+    },
+    {
+      "path": "teachers-notes/msword/teachersnotes-fr.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587e0d909a943f653f91ea69dae9a9109f1711e5",
+      "size": 419595,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/587e0d909a943f653f91ea69dae9a9109f1711e5"
+    },
+    {
+      "path": "teachers-notes/msword/teachersnotes.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7bf025893553df1f9e34ee02772eab58f95ec31",
+      "size": 188803,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c7bf025893553df1f9e34ee02772eab58f95ec31"
+    },
+    {
+      "path": "teachers-notes/pdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d13e83f57c07d4f89a337b495525586e4d152ef",
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/trees/5d13e83f57c07d4f89a337b495525586e4d152ef"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-alienlanguage-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9794121846e0fe3a2a80e9bfaa3e1e23b258b3c0",
+      "size": 120367,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/9794121846e0fe3a2a80e9bfaa3e1e23b258b3c0"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-alienlanguage.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98572a29527787a4beb8bcae4139b89389c4cff9",
+      "size": 60076,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/98572a29527787a4beb8bcae4139b89389c4cff9"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-benchmark.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a633535dd66c98f6d0e29349002718f884cdb7c4",
+      "size": 8032224,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a633535dd66c98f6d0e29349002718f884cdb7c4"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-carorcup-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d59114e96a6172253accd84d7df362d4d1ac36a",
+      "size": 147174,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7d59114e96a6172253accd84d7df362d4d1ac36a"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-carorcup.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8056eb354ce30d0df9eb7a7d46865585ae0bf6b",
+      "size": 127146,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/a8056eb354ce30d0df9eb7a7d46865585ae0bf6b"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-chameleon-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84062d19f1cc13574012f10385ddc0eb53a3ecec",
+      "size": 133409,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/84062d19f1cc13574012f10385ddc0eb53a3ecec"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-chameleon.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6033be59519f233731a500f2a60499e291529457",
+      "size": 115014,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6033be59519f233731a500f2a60499e291529457"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-chatbots-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec509de9bbf891eeef8c255a821c15895ee077cc",
+      "size": 136704,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ec509de9bbf891eeef8c255a821c15895ee077cc"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-chatbots.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77ee49df394dd34d51de38c1f74d7fa67d542d2b",
+      "size": 60959,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/77ee49df394dd34d51de38c1f74d7fa67d542d2b"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-confused.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f73f7da75007108b71e5022dec3d1e9b0d3d952",
+      "size": 102279,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0f73f7da75007108b71e5022dec3d1e9b0d3d952"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-describetheglass.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f901328446a90b2534c2171cfe3df3fc1d0707b",
+      "size": 111086,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8f901328446a90b2534c2171cfe3df3fc1d0707b"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-emojimask-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6019a31ea3c028014915e46321751de96d25d8f4",
+      "size": 106348,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6019a31ea3c028014915e46321751de96d25d8f4"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-emojimask.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8030ccb8c511ad4d785f119b58fabbbcb62c23e",
+      "size": 123241,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f8030ccb8c511ad4d785f119b58fabbbcb62c23e"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-explainability.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9b7fedc038ea1b1c77896f394870a40dfc78113",
+      "size": 126738,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c9b7fedc038ea1b1c77896f394870a40dfc78113"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-facefinder.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364403a285a69ee5d4c88f5b3283a117331a3a70",
+      "size": 123065,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/364403a285a69ee5d4c88f5b3283a117331a3a70"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-facelock.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "802bc0a8b98812960a25a043b37990cc5b271036",
+      "size": 60900,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/802bc0a8b98812960a25a043b37990cc5b271036"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-findit-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdcf94b11b43027fd1505f195e324ed2bb9fd6c4",
+      "size": 153350,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cdcf94b11b43027fd1505f195e324ed2bb9fd6c4"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-findit.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd3b3da535b6d9fc9946dac25d546e6a2c4b75d",
+      "size": 58699,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6dd3b3da535b6d9fc9946dac25d546e6a2c4b75d"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-fooled-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73481a27a6ea7bc67eb39dd0ac7c36e45610d52b",
+      "size": 129468,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/73481a27a6ea7bc67eb39dd0ac7c36e45610d52b"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-fooled.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56fb7328f25ad3ce34cf5696c656ccd301097cd8",
+      "size": 99784,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/56fb7328f25ad3ce34cf5696c656ccd301097cd8"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-handgestures.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8198371e99d0df2b383330bef965c26b6ba8dc",
+      "size": 113124,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1b8198371e99d0df2b383330bef965c26b6ba8dc"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-headlines-easy-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "342011be43b380ffa5d4b8279d15a405eb33a56b",
+      "size": 136210,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/342011be43b380ffa5d4b8279d15a405eb33a56b"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-headlines-easy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9593dca14107ae52a75ff229a4fffe82b05d309",
+      "size": 59982,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/e9593dca14107ae52a75ff229a4fffe82b05d309"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-headlines.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed825345255c035a84d1bfda2c569d2c4018c11e",
+      "size": 56084,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ed825345255c035a84d1bfda2c569d2c4018c11e"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-inkblots-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd0517b350ef70b5905ada5e6cf5325c5ee27dd5",
+      "size": 135880,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bd0517b350ef70b5905ada5e6cf5325c5ee27dd5"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-inkblots.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acc767877a886109806bd5e5d8d3c16181b09ff1",
+      "size": 115953,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/acc767877a886109806bd5e5d8d3c16181b09ff1"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-jargonbuster-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c795ffc0696509f8d4f56bb869229561d2a893cc",
+      "size": 136791,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/c795ffc0696509f8d4f56bb869229561d2a893cc"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-jargonbuster.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3882720956bb823dd17c364bc6ebe8a0ce1a8571",
+      "size": 59459,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3882720956bb823dd17c364bc6ebe8a0ce1a8571"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-journeytoschool-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359cc47b72623f2c12ac3ab5f58c7836ace30a81",
+      "size": 100857,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/359cc47b72623f2c12ac3ab5f58c7836ace30a81"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-journeytoschool.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb41960f85265ad35fa7182b12df4312bdc647ce",
+      "size": 56608,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/fb41960f85265ad35fa7182b12df4312bdc647ce"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-judgeabook-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3128dd15e739a2c2c715e4e00d5cd909b962e85a",
+      "size": 131057,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/3128dd15e739a2c2c715e4e00d5cd909b962e85a"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-judgeabook.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af441796b96db2143fb37adaaba59e6fa141f7a0",
+      "size": 102400,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/af441796b96db2143fb37adaaba59e6fa141f7a0"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-lasereyes-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec6d77e17e69c37e1fbea0f10e2cbb633be2b3a",
+      "size": 118433,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/dec6d77e17e69c37e1fbea0f10e2cbb633be2b3a"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-lasereyes.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4da8234410442ba662436964e07ab9d3220bbb7",
+      "size": 124115,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d4da8234410442ba662436964e07ab9d3220bbb7"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-locatelarry-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab59db0ad954018496b1384839d444e4ab3e6882",
+      "size": 133807,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ab59db0ad954018496b1384839d444e4ab3e6882"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-locatelarry.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdcccd29a7bece983a09ce2d244ab4b02fe10fa9",
+      "size": 116824,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cdcccd29a7bece983a09ce2d244ab4b02fe10fa9"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-mailmanmax-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60eb3316f7dc159254a192a24283aafe39fd9a7",
+      "size": 147018,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d60eb3316f7dc159254a192a24283aafe39fd9a7"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-mailmanmax.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1ade57a94985fe362d152a2fff9ae213f05242d",
+      "size": 115373,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d1ade57a94985fe362d152a2fff9ae213f05242d"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-makemehappy-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19db7775794ed5756ce4038007ce8adf4059df36",
+      "size": 132226,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/19db7775794ed5756ce4038007ce8adf4059df36"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-makemehappy.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7668630ef9b08e2e3b99b71e70e3847bdf10af57",
+      "size": 56045,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7668630ef9b08e2e3b99b71e70e3847bdf10af57"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-noughtsandcrosses-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91229efbeeb09c3ecbc87fc04b8f0b9aea0adf90",
+      "size": 129826,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/91229efbeeb09c3ecbc87fc04b8f0b9aea0adf90"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-noughtsandcrosses.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2ac7586bf42511affdf5f27bd8deb270ae9c92a",
+      "size": 93544,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f2ac7586bf42511affdf5f27bd8deb270ae9c92a"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-pacman-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a744a23136a222d8f71561ed1b2ee79507d9083",
+      "size": 110600,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/0a744a23136a222d8f71561ed1b2ee79507d9083"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-pacman.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5877f22103b67eb7f4ead16174f003182d24e7b",
+      "size": 58298,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f5877f22103b67eb7f4ead16174f003182d24e7b"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-phishing-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee7205c6d64191734d6642c19c2f1d19eee48db2",
+      "size": 130571,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ee7205c6d64191734d6642c19c2f1d19eee48db2"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-phishing.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd994669df9338eb1574327a89f2bbea9a9f8b17",
+      "size": 68327,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bd994669df9338eb1574327a89f2bbea9a9f8b17"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-quizshow.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc8bf044110b9e24b35295be1386c6a387b9d8c3",
+      "size": 109701,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/bc8bf044110b9e24b35295be1386c6a387b9d8c3"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-rockpaperscissors-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84985bad8afff443532653c25ef12485b3e57b44",
+      "size": 136174,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/84985bad8afff443532653c25ef12485b3e57b44"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-rockpaperscissors.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24944209b000341352285d0095860ebc24ddd60e",
+      "size": 116902,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/24944209b000341352285d0095860ebc24ddd60e"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-schoollibrary-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68d8c844346f80bb8982bc2eb74fcfab7094d95",
+      "size": 99485,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/d68d8c844346f80bb8982bc2eb74fcfab7094d95"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-schoollibrary.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7729c0e2bf48dd87d1293ad8b42bab8912267706",
+      "size": 53583,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7729c0e2bf48dd87d1293ad8b42bab8912267706"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-secretcode-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597af3b41b85c81aec593af61ce0de97651e7662",
+      "size": 126025,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/597af3b41b85c81aec593af61ce0de97651e7662"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-secretcode.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dac2c2279edc81fe05fa6c0692c3fddfa3997590",
+      "size": 59322,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/dac2c2279edc81fe05fa6c0692c3fddfa3997590"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-semaphores.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63e8b47ee91b7f9d92940e7227fb8fa6738f835",
+      "size": 124964,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f63e8b47ee91b7f9d92940e7227fb8fa6738f835"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-shootthebug.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88b209fc7f3f27006bcd50ccf87fdfe5bd1911a0",
+      "size": 110188,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/88b209fc7f3f27006bcd50ccf87fdfe5bd1911a0"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-shypanda-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e7a454b1d2e87be4e011696e07c7e283b626c65",
+      "size": 134092,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8e7a454b1d2e87be4e011696e07c7e283b626c65"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-shypanda.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc700f0c6f853c46ff5b6992346b3dd1ec6c812",
+      "size": 115451,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1bc700f0c6f853c46ff5b6992346b3dd1ec6c812"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-smartclassroom-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2791bc57bb0f383180519cd22987fc465a0034c",
+      "size": 148884,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/f2791bc57bb0f383180519cd22987fc465a0034c"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-smartclassroom.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae51c902f837fc3ff40a6b279114a9cabf6d2161",
+      "size": 62115,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ae51c902f837fc3ff40a6b279114a9cabf6d2161"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-snap-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca1d527d46afefeae52b26075017eed9a3ec7f0f",
+      "size": 138113,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ca1d527d46afefeae52b26075017eed9a3ec7f0f"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-snap.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00a666904b81eac2b1d5bb53847e87a9f6378c14",
+      "size": 145505,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/00a666904b81eac2b1d5bb53847e87a9f6378c14"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-sortinghat-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbfa0b7e3a56ec027971bd8a2d1cfafd3a260a26",
+      "size": 145764,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cbfa0b7e3a56ec027971bd8a2d1cfafd3a260a26"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-sortinghat.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4efae63e8ac6d3bd009bbfc7144818ab586e694e",
+      "size": 58894,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/4efae63e8ac6d3bd009bbfc7144818ab586e694e"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-titanic-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b226ea6a4261cfbd243b2c21c9842a1a02ff489e",
+      "size": 107935,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b226ea6a4261cfbd243b2c21c9842a1a02ff489e"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-titanic.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9cfb5f611d31b8943464a5279940e3dbc499bf",
+      "size": 67248,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/7f9cfb5f611d31b8943464a5279940e3dbc499bf"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-toptrumps-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f71a8e6feb28917a0bb8547da78477f415363e9",
+      "size": 111197,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/1f71a8e6feb28917a0bb8547da78477f415363e9"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-toptrumps.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938b6c0a30524ed1ed16113b68e73f599546d9de",
+      "size": 59143,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/938b6c0a30524ed1ed16113b68e73f599546d9de"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-touristinfo-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ffbf46ed49a39d201dbde29ad211159db076e8",
+      "size": 153817,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/50ffbf46ed49a39d201dbde29ad211159db076e8"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-touristinfo.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f7ed8d66e86ba88edd8d22973275e9106d2d37d",
+      "size": 61212,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/6f7ed8d66e86ba88edd8d22973275e9106d2d37d"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-virtualpet-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8efe7cc8472e4ffa5cb6b64fcdd02ca0cc2ad014",
+      "size": 136656,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/8efe7cc8472e4ffa5cb6b64fcdd02ca0cc2ad014"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-virtualpet.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb115c8d4172b3359c11ca7536c36d3d0486fd73",
+      "size": 115182,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/cb115c8d4172b3359c11ca7536c36d3d0486fd73"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-whattwitterthinks-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca7b3fffbfedc30810532a3fd8a44aceb4ac422e",
+      "size": 139789,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/ca7b3fffbfedc30810532a3fd8a44aceb4ac422e"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-whattwitterthinks.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70b53d11e01c196e7bdb23cc7bf809def2059298",
+      "size": 62400,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/70b53d11e01c196e7bdb23cc7bf809def2059298"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-zombieescape-fr.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121e4ada3f6ee2ecf1245b949736a4a87fd683fe",
+      "size": 183833,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/121e4ada3f6ee2ecf1245b949736a4a87fd683fe"
+    },
+    {
+      "path": "teachers-notes/pdf/teachersnotes-zombieescape.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b42fa873a02511d7bc5d61f398ca875a0df65e02",
+      "size": 116043,
+      "url": "https://api.github.com/repos/IBM/taxinomitis-docs/git/blobs/b42fa873a02511d7bc5d61f398ca875a0df65e02"
+    }
+  ],
+  "truncated": false
+}

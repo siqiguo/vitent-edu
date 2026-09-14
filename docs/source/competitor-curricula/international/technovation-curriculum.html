@@ -1,0 +1,285 @@
+<!DOCTYPE html><!-- Last Published: Wed Sep 09 2026 15:26:16 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.technovation.org" data-wf-page="6a8da8b4a582ea243ed03f82" data-wf-site="6a81e7955aa1892d5f67e381" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>AI Curriculum for K-12 Educators | Technovation</title><meta content="Free, standards-aligned AI curriculum for ages 8 to 18. Start with a 4-hour intro or run a full 30+ hour build. Aligned to ISTE, UNESCO, and select US state standards." name="description"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="x-Ahf1qGFMGpGcEMeoTY0on5zFoIUKjvMF3LwT0f2pc" name="google-site-verification"/><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/css/technovationteam.webflow.shared.63714c378.css" rel="stylesheet" type="text/css" integrity="sha384-Y3FMN4KrH+4G2OBZ13KaL36rEcuBntXWp0zCvpYlRXD/wuok9ccwWyu7Iao1oHQh" crossorigin="anonymous"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Castoro:400:latin,latin-ext","Manrope:200,300,400,500,600,700,800"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cce5f76d237280dcbb21_NEW%20LOGO-07.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)"/><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91ccd4b0feb54f8867ebe4_NEW%20LOGO-06.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)"/><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cce5799fa303bdda9c45_NEW%20LOGO-07.png" rel="icon" type="image/png" sizes="48x48"/><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cce5dcfff004a5e53c4a_NEW%20LOGO-07.png" rel="apple-touch-icon" sizes="180x180"/><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cce58976fecf8c91eec9_NEW%20LOGO-07.png" rel="icon" type="image/png" sizes="192x192"/><link href="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cce5d614f6bdb2e01b08_NEW%20LOGO-07.png" rel="icon" type="image/png" sizes="512x512"/><link href="https://www.technovation.org/curriculum" rel="canonical"/><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push.apply(w[g],Array.isArray(i)?i:[i]);})(window,['G-WB7ZKCLFYW','GTM-TXK2X2L','AW-1048667213'],'google_tags_first_party');</script><script async="" src="/nvhc9u4gxsagNmE4MWU3OTU1YWExODkyZDVmNjdlMzgx/Wb2xA_FwSYm1qFPhS7DAap8YK_Q"></script><script async="" src="/nvhc9u4gxsagNmE4MWU3OTU1YWExODkyZDVmNjdlMzgx/Wb2xA_FwSfCvxzDjS8HUHoor9A"></script><script async="" src="/nvhc9u4gxsagNmE4MWU3OTU1YWExODkyZDVmNjdlMzgx/Wb2xA_FwT_PP21SPOMW6G_R-GSv0"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('set', 'developer_id.dZGVlNj', true);gtag('set', 'developer_id.dYWYxNW', true);gtag('js', new Date());gtag('config', 'G-WB7ZKCLFYW');gtag('config', 'GTM-TXK2X2L');gtag('config', 'AW-1048667213');</script><style>
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ---- mobile navigation repair (2026-08-31) ----
+   1. .nav-link-3 had NO mobile rule, so 4 of the 5 links rendered black 20px
+      on the indigo full-screen panel. Only .nav-link-2 ("About") was styled.
+   2. .navbar padding:40px (<=479px) + a 120px-tall logo made the header 236px.
+   3. The panel is position:fixed;inset:0 and painted over the hamburger, so
+      there was no way to close it.
+   4. Webflow's drop-down tween mis-measures a position:fixed menu and can
+      leave the panel translated off-screen. Visibility is driven by an
+      html.nav-open class (set by the footer script) instead of by Webflow's
+      animation callbacks. No transition: one here stalls mid-fade.
+   Desktop (>=992px) is untouched. */
+@media screen and (max-width: 991px) {
+  .navbar { height: auto; padding: 8px 0; }
+  .navbar .container-8 { position: relative; z-index: 1500; padding-top: 8px; padding-bottom: 8px; }
+  .navbar .image.nav-brand-logo { width: auto; height: 28px; }
+  .navbar .w-nav-button { position: relative; z-index: 2000; padding: 14px; }
+  .navbar .w-nav-overlay { position: static !important; display: block !important; height: auto !important; width: auto !important; overflow: visible !important; }
+  .navbar .nav-menu-custom.nav-menu-fix {
+    display: flex !important;
+    position: fixed !important;
+    left: 0 !important; right: 0 !important; top: 0 !important; bottom: 0 !important;
+    width: auto !important; height: auto !important;
+    transform: none !important;
+    transition: none !important;
+    z-index: 1400;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    overflow-y: auto;
+  }
+  html.nav-open .navbar .nav-menu-custom.nav-menu-fix { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
+  html.nav-open, html.nav-open body { overflow: hidden; }
+  .navbar .nav-link-2, .navbar .nav-link-3 { color: #FAF4EC; text-align: center; font-size: 35px; line-height: 42px; }
+  .navbar .w-nav-button.w--open { background-color: transparent; }
+  .navbar .w-nav-button.w--open .w-icon-nav-menu { visibility: hidden; }
+  .navbar .w-nav-button.w--open::before, .navbar .w-nav-button.w--open::after { content: ""; position: absolute; left: 50%; top: 50%; width: 26px; height: 2px; background-color: #FAF4EC; }
+  .navbar .w-nav-button.w--open::before { transform: translate(-50%, -50%) rotate(45deg); }
+  .navbar .w-nav-button.w--open::after { transform: translate(-50%, -50%) rotate(-45deg); }
+  html.nav-open .nav-brand-logo { filter: brightness(0) invert(1); }
+  .hm-hero-lottie-fill { width: 100%; height: 100%; min-width: 0; min-height: 0; }
+}
+@media screen and (max-width: 991px) and (max-height: 560px) {
+  .navbar .nav-menu-custom { gap: 14px; }
+  .navbar .nav-menu-links-wrap { gap: 14px; }
+  .navbar .nav-link-2, .navbar .nav-link-3 { font-size: 22px; line-height: 28px; }
+}
+/* ---- footer social icons (2026-08-31) ----
+   The five icon SVGs carry a viewBox but no width/height attribute, and the
+   img was sized with a percentage inside a shrink-to-fit flex link. A percent
+   width against an auto-width parent resolves to zero, so both the img and its
+   link measured 0px wide and the icons were unclickable on desktop. Sizing
+   from the height plus the SVG's own aspect ratio fixes it at every width. */
+.footer-social-icon { width: auto; height: 25px; }
+.footer-social-link { flex: 0 0 auto; }
+/* ---- Give stats block (2026-08-31) ----
+   Six stats in an auto-fit grid fell 4 + 2. Now three fixed columns, two even
+   rows, each on a pale lime tile with the numeral in brand blue. */
+.gv-stats-grid > * {
+  background-color: #ECF2C1;
+  border-radius: 16px;
+  padding: clamp(22px, 2.4vw, 36px);
+  box-sizing: border-box;
+}
+/* ---- mobile layout patches (2026-08-31) ---- */
+@media screen and (max-width: 767px) {
+  .gv-stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-column-gap: 12px; grid-row-gap: 12px; }
+
+  /* Community. Leftover starter classes carrying margin-left:220px, which left
+     these paragraphs 107px wide on a 375px screen. */
+  .paragraph-3, .paragraph-4 { margin-left: 0; }
+
+  /* Footer link grid, phones (rewritten 2026-09-01).
+     The desktop design is five columns, each led by a lime heading with its
+     sub-links underneath, and each column carries a 40px row-gap so the five
+     columns fill a tall band. Collapsed to two columns on a phone that gap is
+     wrong twice over: it scatters 13 links down 515px, and it breaks the
+     heading-to-sub-link grouping, so the footer read as a broken grid. On
+     phones the five groups now stack in one column, 26px apart, with 8px
+     between the links inside a group, which is how the grouping is supposed to
+     read. The copyright shares a cell with the Home link, so it is lifted out
+     of flow to the bottom instead of sitting marooned mid-stack. The wrapper's
+     fixed 600px height is handled by the ft-wrap-auto combo class on the
+     element itself, not from here. */
+  .frame-1984079521-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 26px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56px;
+  }
+  .frame-1984079521-2 > div { row-gap: 8px; width: 100%; }
+  .copyright-2024-technovation-all-rights-reserved {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+  }
+
+  /* Impact folder tabs. Three tabs total ~620px against a 327px strip. */
+  .im-fold-tabs {
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: visible;
+    padding-left: 0;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+  }
+  .im-fold-tab {
+    width: 100%;
+    height: auto;
+    min-height: 52px;
+    padding: 12px 20px;
+    flex-shrink: 1;
+    white-space: normal;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  .im-fold-panel { margin-top: 6px; border-radius: 8px; }
+
+  /* Home, "What we do". Three tabs total ~425px in a 335px strip. */
+  .hm-prog-tabs {
+    flex-direction: column;
+    align-items: stretch;
+    overflow: visible;
+    height: auto;
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+  }
+  .hm-prog-tab {
+    width: 100%;
+    height: auto;
+    min-height: 48px;
+    padding: 12px 18px;
+    flex-shrink: 1;
+    border-radius: 8px;
+  }
+  .hm-prog-panel { margin-top: 6px; }
+
+  /* Team. Board cards were a fixed 450px, wider than the phone screen. */
+  .bd-card, .bd-card-img { width: min(78vw, 320px); }
+  .bd-card { height: 420px; }
+  .bd-card-img { height: 100%; }
+
+  /* Team constellation. The desktop line work distorts into loops at phone
+     aspect; the photo nodes carry the design alone. */
+  .tm-net-lines { display: none; }
+}
+/* ---- touch devices, hover-only interactions (2026-08-31) ----
+   Impact, Real Builds. :hover cannot be triggered, so the footer script toggles
+   .is-flipped on tap. And the 3D flip renders MIRRORED on iOS: .im-face carries
+   overflow:hidden AND border-radius AND backface-visibility:hidden, and inside
+   a preserve-3d parent WebKit builds a clipping layer that defeats
+   backface-visibility. So no 3D here: the faces cross-fade on opacity. */
+@media (hover: none) {
+  .im-flip { cursor: pointer; }
+  .im-flip-inner {
+    transform: none !important;
+    transform-style: flat !important;
+    transition: none !important;
+  }
+  .im-face { backface-visibility: visible !important; }
+  .im-face-back { transform: none !important; opacity: 0; }
+  .im-face-front { opacity: 1; }
+  .im-flip.is-flipped .im-face-front { opacity: 0; }
+  .im-flip.is-flipped .im-face-back { opacity: 1; }
+  .im-face-front::after {
+    content: "Tap to read";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    padding: 7px 0;
+    text-align: center;
+    font-family: Manrope, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.92);
+    background-color: rgba(10, 10, 10, 0.55);
+    pointer-events: none;
+  }
+}
+</style>
+<script>
+/* Home hero Lottie: serve the aspect that fits the device. Runs in the head so
+   data-src is rewritten before webflow.js (end of body) initialises the
+   player. <=767px gets the 9:16 file, 768-991px the 4:3, desktop keeps the
+   16:9. One element, one download per device. The -notext files are the same
+   animations with the baked-in headline layers hidden. */
+(function () {
+  var w = window.innerWidth;
+  var src = null;
+  if (w <= 767) { src = 'https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a95db1f47e871f8a46a2131_hm-hero-mobile-9x16-notext.json'; }
+  else if (w <= 991) { src = 'https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a95db1fecc9bba660ca9948_hm-hero-tablet-4x3-notext.json'; }
+  if (!src) { return; }
+  var done = false;
+  var mo = new MutationObserver(function () {
+    if (done) { return; }
+    var el = document.querySelector('.hm-hero-lottie-fill[data-animation-type="lottie"]');
+    if (el) { done = true; el.setAttribute('data-src', src); mo.disconnect(); }
+  });
+  mo.observe(document.documentElement, { childList: true, subtree: true });
+  document.addEventListener('DOMContentLoaded', function () { if (!done) { mo.disconnect(); } });
+})();
+</script></head><body><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-doc-height="1" role="banner" class="navbar w-nav"><div class="container-8 w-container"><a href="/" class="brand w-nav-brand"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a9221418cecebe0e38a2555_Technovation_2026_Logos_TECHNOVATION%20Obsidian.svg" loading="lazy" width="70" height="60" alt="" class="image nav-brand-logo"/></a><nav role="navigation" class="nav-menu-custom nav-menu-fix w-nav-menu"><div class="nav-menu-links-wrap"><a href="/about" class="nav-link-2">About</a><a href="/programs" class="nav-link-3">Programs</a><a href="/community" class="nav-link-3">Community</a><a href="/impact" class="nav-link-3">Impact</a><a href="/the-signal" class="nav-link-3">The Signal</a><a href="/give" class="cta-dark-2 nav-cta w-inline-block"><p class="give give-nav">Give</p></a></div></nav><div class="menu-button-2 w-nav-button"><div class="w-icon-nav-menu"></div></div></div></div><section class="tn-hero-light"><div class="tn-container"><div class="cur-hero-stage"><div class="cur-hero-scatter"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91dd5b0e670c271651d07f_2023-Catalonia-101.jpg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91dd5b0e670c271651d07f_2023-Catalonia-101-p-500.jpg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91dd5b0e670c271651d07f_2023-Catalonia-101-p-800.jpg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91dd5b0e670c271651d07f_2023-Catalonia-101-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91dd5b0e670c271651d07f_2023-Catalonia-101.jpg 1920w" alt="Students collaborating on a project, Spain" class="cur-hero-tile cur-hero-t1"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cdc607117569c23bd9de_GeneralPhoto-102.jpeg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cdc607117569c23bd9de_GeneralPhoto-102-p-500.jpeg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cdc607117569c23bd9de_GeneralPhoto-102-p-800.jpeg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cdc607117569c23bd9de_GeneralPhoto-102-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cdc607117569c23bd9de_GeneralPhoto-102.jpeg 1200w" alt="Students working together in a classroom" class="cur-hero-tile cur-hero-t2"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91d5b972f3db9bcbc851b7_2023-Venezuela-ClaudiaValladares-200.JPG" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91d5b972f3db9bcbc851b7_2023-Venezuela-ClaudiaValladares-200-p-500.jpg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91d5b972f3db9bcbc851b7_2023-Venezuela-ClaudiaValladares-200-p-800.jpg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91d5b972f3db9bcbc851b7_2023-Venezuela-ClaudiaValladares-200-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91d5b972f3db9bcbc851b7_2023-Venezuela-ClaudiaValladares-200.JPG 1920w" alt="Students building a project, India" class="cur-hero-tile cur-hero-t3"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91e2cc9e86ad5c5e8f6420_2023-Brazil-AliceStippeRodrigues-341.jpg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91e2cc9e86ad5c5e8f6420_2023-Brazil-AliceStippeRodrigues-341-p-500.jpg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91e2cc9e86ad5c5e8f6420_2023-Brazil-AliceStippeRodrigues-341-p-800.jpg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91e2cc9e86ad5c5e8f6420_2023-Brazil-AliceStippeRodrigues-341-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91e2cc9e86ad5c5e8f6420_2023-Brazil-AliceStippeRodrigues-341.jpg 1500w" alt="Students presenting their work, Brazil" class="cur-hero-tile cur-hero-t4"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145.jpg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145-p-500.jpg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145-p-800.jpg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145-p-2000.jpg 2000w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145-p-2600.jpg 2600w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd6c72714f0a5fb19bb3_2023-WS-PitchAwards-DrewSelects-145.jpg 4240w" alt="A team designing a mobile application interface" class="cur-hero-tile cur-hero-t5"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91da83a7a61d71cf3de2ca_2025-Montreal-credit_DeniseBarria-115.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91da83a7a61d71cf3de2ca_2025-Montreal-credit_DeniseBarria-115-p-500.png 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91da83a7a61d71cf3de2ca_2025-Montreal-credit_DeniseBarria-115-p-800.png 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91da83a7a61d71cf3de2ca_2025-Montreal-credit_DeniseBarria-115-p-1080.png 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91da83a7a61d71cf3de2ca_2025-Montreal-credit_DeniseBarria-115-p-1600.png 1600w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91da83a7a61d71cf3de2ca_2025-Montreal-credit_DeniseBarria-115.png 1754w" alt="Students at work on a build, Nigeria" class="cur-hero-tile cur-hero-t6"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd9e888a87dc686fa387_2025-Italy-SamantaPutgato-129.jpeg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd9e888a87dc686fa387_2025-Italy-SamantaPutgato-129-p-500.jpeg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd9e888a87dc686fa387_2025-Italy-SamantaPutgato-129-p-800.jpeg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd9e888a87dc686fa387_2025-Italy-SamantaPutgato-129-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd9e888a87dc686fa387_2025-Italy-SamantaPutgato-129-p-1600.jpeg 1600w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a92cd9e888a87dc686fa387_2025-Italy-SamantaPutgato-129.jpeg 3072w" alt="Students collaborating, Italy" class="cur-hero-tile cur-hero-t7"/><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a905ca62d7767b8e301c073_2017-AnkurNoida-107-OPTIMIZED.jpg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a905ca62d7767b8e301c073_2017-AnkurNoida-107-OPTIMIZED-p-500.jpg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a905ca62d7767b8e301c073_2017-AnkurNoida-107-OPTIMIZED-p-800.jpg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a905ca62d7767b8e301c073_2017-AnkurNoida-107-OPTIMIZED-p-1080.jpg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a905ca62d7767b8e301c073_2017-AnkurNoida-107-OPTIMIZED-p-1600.jpg 1600w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a905ca62d7767b8e301c073_2017-AnkurNoida-107-OPTIMIZED.jpg 1920w" alt="Students working on laptops together, India" class="cur-hero-tile cur-hero-t8"/></div><div class="cur-hero-text"><h1 class="tn-h1-dark">We teach a <span class="tn-h1-em-blue">builder mindset.</span></h1><p class="tn-hero-lead-dark">Most AI education stops at tool training. Our free, standards-aligned curriculum has students build real solutions to real problems in their own communities, gaining the kind of skills that outlast any single tool.</p><a href="https://form.jotform.com/262105669761058" class="tn-btn tn-btn-center w-inline-block"><div class="tn-btn-label">Bring Technovation to your students</div><div class="tn-btn-arrow">→</div></a></div></div><div class="tn-hero-footer-light tn-footer-media"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91f876a7845e0edc75d20f_GeneralPhoto-105.jpeg" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91f876a7845e0edc75d20f_GeneralPhoto-105-p-500.jpeg 500w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91f876a7845e0edc75d20f_GeneralPhoto-105-p-800.jpeg 800w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91f876a7845e0edc75d20f_GeneralPhoto-105-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91f876a7845e0edc75d20f_GeneralPhoto-105.jpeg 1920w" alt="Replace: classroom photo to accompany the Kali L. quote" class="tn-quote-img"/><div><blockquote class="tn-quote-dark">“These are real products for real users, and the students building them know it.”</blockquote><div class="tn-cite">– Kali L., High School teacher</div></div></div></div></section><section class="tn-section cur-opts-pad"><div class="tn-container"><h2 class="tn-h2">You don&#x27;t have to overhaul your year to begin.</h2><p class="tn-body">Start with the time you have. Technovation curriculum is 100% free, engages ages 8-18, and can adapt to your classroom, schedule, and standards.</p><div class="tn-grid-2"><div class="tn-card"><div class="tn-card-meta">Time: 4 to 5 hours</div><h3 class="tn-h3">Technovation Spark</h3><p class="tn-body">Best for: Seeing whether this fits your group before you commit to more.</p><p class="tn-body">Spark is the curiosity-first starter curriculum focused on problem identification and ideation, and it runs in about a week of class time. Use it to test the waters or run a short unit that stands on its own.</p><a href="https://technovationchallenge.org/ai-mini-technovation/" class="tn-link">Explore Technovation Spark →</a></div><div class="tn-card"><div class="tn-card-meta">Time: 30+ hours</div><h3 class="tn-h3">Technovation Challenge</h3><p class="tn-body">Best for: A semester, a full unit, or a club that wants to make something real.</p><p class="tn-body">Technovation Challenge takes students from ideation all the way to a working project. If they want to, they can enter it into our global competition.</p><div class="tn-rule"><div class="tn-card-meta">*NEW* for our 2027 season:</div><p class="tn-body">It&#x27;s easier than ever to compete in the Technovation Challenge. We&#x27;re introducing a co-ed track that allows all students regardless of gender to submit their projects to our global competition.</p></div><a href="https://technovationchallenge.org/technovation-curriculum/" class="tn-link">Explore Technovation Challenge →</a></div></div></div></section><section class="tn-band-dark"><div class="tn-container"><div class="tn-eyebrow">Standards alignment</div><h2 class="tn-h2-light">Field tested and standard aligned to fit your classroom</h2><p class="tn-body-light">Our curriculum development is grounded in longitudinal impact studies, continuous educator feedback, and learning science research. It also aligns with key educational standards and frameworks:</p><div class="tn-grid-2"><div class="tn-list-item"><div class="tn-list-title">ISTE Standards for Students</div><div class="tn-list-body"><a href="https://docs.google.com/spreadsheets/d/1qxAV5hB77jwQp2RNTpUmK9sYzazD2tQ4WjRStZ-BR4E/edit?gid=1007091853#gid=1007091853" target="_blank" class="tn-link-lime">See alignment matrix →</a></div></div><div class="tn-list-item"><div class="tn-list-title">UNESCO AI Competency Framework</div><div class="tn-list-body"><a href="https://docs.google.com/spreadsheets/d/1guMCgKdaYkJAe7rZwPGuXocFl4kVEtG2nrEOJbY2R3g/edit?gid=1031122623#gid=1031122623" target="_blank" class="tn-link-lime">See alignment matrix →</a></div></div><div class="tn-list-item"><div class="tn-list-title">Select US state standards</div><div class="tn-list-body">See the alignments for <a href="https://docs.google.com/spreadsheets/d/1yl-SXwpWzVAZdMJrd3sWlHYvGw58M2l34gviCTRxJ1o/edit?gid=1950517871#gid=1950517871" target="_blank" class="tn-link-lime">Texas</a>, <a href="https://docs.google.com/spreadsheets/d/1RcsREgGTtlfNjDTLpicGa1PjYnq8338tWewVAkcIteg/edit?gid=1950517871#gid=1950517871" target="_blank" class="tn-link-lime">Ohio Computer Science</a>, <a href="https://docs.google.com/spreadsheets/d/1y0bo2Y6khz738PvgZwDsJZBj1jVGaZoiHTRJ-6IUaJQ/edit?gid=1950517871#gid=1950517871" target="_blank" class="tn-link-lime">Ohio Business Administrative Services</a>, and <a href="https://docs.google.com/spreadsheets/d/1haJ6W-V3ypiZydoOiwEwF-bZNkzEMw1JskDo53dMlEU/edit?gid=1950517871#gid=1950517871" target="_blank" class="tn-link-lime">Pennsylvania</a>, with more on the way.</div></div><div class="tn-list-item"><div class="tn-list-title">Presidential AI Challenge</div><div class="tn-list-body">The curriculum&#x27;s structure maps directly to each challenge requirement, so students are set up to meet them. <a href="https://www.ai.gov/initiatives/presidential-challenge" target="_blank" class="tn-link-lime">Explore the challenge →</a></div></div></div></div></section><section class="tn-section"><div class="tn-container"><h2 class="tn-h2">From the educators running it</h2><div class="cur-tst-scroll"><div class="cur-tst-track"><div class="tn-card cur-tst-card cur-tst-cream"><blockquote class="tn-quote-dark">“This year, my students are building apps designed to serve their own school community, one to improve attendance tracking, one to reduce crowding in student support classrooms, and one to help students discover and join school clubs. These are real products for real users, and the students building them know it.”</blockquote><div class="tn-cite">– Kali L., High School teacher</div></div><div class="tn-card cur-tst-card cur-tst-sky"><blockquote class="tn-quote-dark">“This reignited my passion for innovation in the classroom. As an educator, it gave me the tools, confidence, and inspiration to bring AI and coding to life for my students in meaningful ways. I’m excited to launch student-led projects that connect technology to real-world issues, and show my students that their ideas can truly make an impact.”</blockquote><div class="tn-cite">– Lisa M., K-8th Grade educator</div></div><div class="tn-card cur-tst-card cur-tst-lime"><blockquote class="tn-quote-dark">“Before this experience, I viewed coding and AI as intimidating subjects that belonged solely in computer science classrooms. Now I see them as powerful tools that can enhance learning across all disciplines, especially in my ELAR classroom…This project will address our state’s Creativity and Innovation TEKS while strengthening reading, writing, speaking, and listening skills.”</blockquote><div class="tn-cite">– Talia K., 6th Grade teacher</div></div></div></div><div class="w-embed w-script"><style>.cur-tst-scroll{scrollbar-width:none;-ms-overflow-style:none;}.cur-tst-scroll::-webkit-scrollbar{display:none;}.cur-tst-dots{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:28px;}.cur-tst-dot{width:9px;height:9px;padding:0;border:0;border-radius:50%;background:rgba(10,10,10,0.22);cursor:pointer;transition:background .25s ease,transform .25s ease;}.cur-tst-dot.is-active{background:#0030EF;transform:scale(1.25);}.cur-tst-dot:focus-visible{outline:2px solid #0030EF;outline-offset:3px;}</style><div class="cur-tst-dots" role="tablist" aria-label="Educator testimonials"></div><script>(function(){var sc=document.querySelector('.cur-tst-scroll');var dots=document.querySelector('.cur-tst-dots');if(!sc||!dots)return;var cards=sc.querySelectorAll('.cur-tst-card');if(!cards.length){dots.style.display='none';return;}var btns=[];Array.prototype.forEach.call(cards,function(c,i){var b=document.createElement('button');b.type='button';b.className='cur-tst-dot'+(i===0?' is-active':'');b.setAttribute('aria-label','Show testimonial '+(i+1));b.addEventListener('click',function(){sc.scrollTo({left:c.offsetLeft-sc.offsetLeft,behavior:'smooth'});});dots.appendChild(b);btns.push(b);});var t;sc.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(function(){var best=0,min=Infinity;Array.prototype.forEach.call(cards,function(c,i){var d=Math.abs((c.offsetLeft-sc.offsetLeft)-sc.scrollLeft);if(d<min){min=d;best=i;}});btns.forEach(function(b,i){b.classList.toggle('is-active',i===best);});},80);});})();</script></div></div></section><section class="tn-band-dark"><div class="tn-container"><h2 class="tn-h2-light">What our students build</h2><p class="tn-body-light">A 12-year-old from North Carolina built the Natural Disaster Rescue Assistant, a web app that creates personalized escape plans for emergencies like earthquakes, floods, and wildfires. Watching communities across the country get hit by disasters, they decided to make something useful. Using tools including mapping services and AI, she combined live data with clear guidance to make emergency response faster and easier to follow.</p><div><div class="tn-video-band w-embed"><iframe src="https://www.youtube-nocookie.com/embed/vFe-FrZSAKo?start=190" title="What our students build" loading="lazy" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%;height:100%;border:0;display:block;"></iframe></div></div><div class="tn-hero-footer"><div><div class="tn-eyebrow">In the news</div><p class="tn-body-light">The work speaks for itself, and local newsrooms have noticed. A few recent segments:</p></div><div><div class="tn-list-item"><div class="tn-list-body">RAPIDx is a wearable pendant and app that lets paramedics tap a patient&#x27;s phone to pull up vital medical information in seconds, built by high school students in Virginia. <a href="https://wjla.com/good-morning-washington/vienna-teens-unveil-rapidx-app-to-speed-paramedics-access-to-patient-medical-data" target="_blank" class="tn-link-lime">Watch on ABC7 / WJLA →</a></div></div><div class="tn-list-item"><div class="tn-list-body">A food-insecurity app built by teens in Texas to help their community. <a href="https://www.kxan.com/technology/austin-area-teens-develop-app-aimed-at-fighting-food-insecurity/" target="_blank" class="tn-link-lime">Watch on KXAN →</a></div></div></div></div></div></section><section class="tn-cta"><div class="tn-container"><h2 class="tn-cta-heading">Get started</h2><div class="tn-grid-3"><div><h3 class="tn-h3">Educator Training</h3><p class="tn-body">Learn the model, the tools, and how the project arc works, so you walk in prepared.</p><a href="https://forms.gle/spcET71JDBu2ptvL7" class="tn-link">Start here →</a></div><div><h3 class="tn-h3">Custom, supported planning</h3><p class="tn-body">We help you fit the curriculum to your schedule, your standards, your students.</p><a href="https://forms.gle/spcET71JDBu2ptvL7" class="tn-link">Start here →</a></div><div><h3 class="tn-h3">Program implementation</h3><p class="tn-body">Try Technovation with your students, with our support and a global community alongside you.</p><a href="https://forms.gle/spcET71JDBu2ptvL7" class="tn-link">Start here →</a></div></div></div></section><div data-figma-id="1566:669" data-wf--site-footer--variant="indigo" class="footer w-variant-44ca4943-66de-208c-defa-bab8e2245f0f"><div data-figma-id="1566:670" class="frame-1984079526-2 ft-wrap-auto"><div data-figma-id="1566:671" class="frame-1984079523-2"><div data-figma-id="1566:676" id="w-node-_72d90819-90a4-92d4-6760-8c3fb085e63d-b085e63a" class="frame-1984079521-2"><div data-figma-id="1570:1198" class="frame-1984079522"><div data-figma-id="1570:1199" class="frame-1437259046-2"><a href="/" class="footer-column-heading">Home</a></div><p data-figma-id="1570:1201" class="copyright-2024-technovation-all-rights-reserved">Copyright 2026 Technovation. 
+All Rights Reserved</p></div><div data-figma-id="1566:677" class="frame-1984079517-2"><a href="/about" class="footer-column-heading">About</a><div data-figma-id="1566:679" class="frame-1437259049-2"><a href="/run-our-programs" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">Run Our Programs</a></div><a href="/curriculum" aria-current="page" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f w--current">Curriculum</a></div><div data-figma-id="1566:682" class="frame-1984079518"><div data-figma-id="1566:683" class="frame-1437259050"><a href="/alum" class="footer-column-heading">Alum</a></div><div data-figma-id="1566:685" class="frame-1437259051"><a href="/team" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">Team</a></div><a href="/community" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">Community</a></div><div data-figma-id="1566:688" class="frame-1984079519"><a href="/give" class="footer-column-heading">Give</a><div data-figma-id="1566:690" class="frame-1984079524"><a href="/the-signal" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">The Signal</a></div><div data-figma-id="1566:692" class="frame-1437259048-3"><a href="/women-techmakers" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">Women Techmakers</a></div></div><div data-figma-id="1566:694" class="frame-1984079520"><a href="/careers" class="footer-column-heading">Careers</a><a href="/blog" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">Blog</a><a href="/privacy-policy" class="footer-link w-variant-44ca4943-66de-208c-defa-bab8e2245f0f">Privacy Policy</a></div></div></div><div class="w-layout-blockcontainer container-7 w-container"><div data-figma-id="1566:699" id="w-node-_72d90819-90a4-92d4-6760-8c3fb085e666-b085e63a" class="technovation-is-a-501c3-non-profit-in-the-united-states"><a data-figma-id="1566:699 - 0" href="/nonprofit-status" class="technovation-is-a-501c3-non-profit-in-the-united-states-2 w-inline-block">Technovation is a 501c3 Non-Profit</a><p data-figma-id="1566:699 - 1" class="technovation-is-a-501c3-non-profit-in-the-united-states-3"> in the United States</p></div><div class="footer-social-row"><a href="https://x.com/technovation" target="_blank" class="footer-social-link w-inline-block"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cea2d4a619fef0888c76_X.svg" loading="lazy" alt="Technovation on X" class="footer-social-icon"/></a><link rel="noopener noreferrer" href="https://x.com/technovation"/><a href="https://www.linkedin.com/company/technovation" target="_blank" class="footer-social-link w-inline-block"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cea25e1f391a26df77a5_LI.svg" loading="lazy" alt="Technovation on LinkedIn" class="footer-social-icon"/></a><a href="https://www.instagram.com/technovationglobal" class="footer-social-link w-inline-block"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cea2f6e6ba99301fde20_IG.svg" loading="lazy" alt="Technovation on Instagram" class="footer-social-icon"/></a><a href="https://www.facebook.com/technovationglobal" class="footer-social-link w-inline-block"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cea2aa8c6cf7dd8e3538_FB.svg" loading="lazy" alt="Technovation on Facebook" class="footer-social-icon"/></a><a href="https://www.youtube.com/technovationglobal" target="_blank" class="footer-social-link w-inline-block"><img src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/6a91cea2fd56b2c50e0a616f_YT.svg" loading="lazy" alt="Technovation on YouTube" class="footer-social-icon"/></a><link rel="noopener noreferrer" href="https://www.youtube.com/technovationglobal"/></div></div></div><div data-figma-id="1566:714" data-figma-image-id="6a822b950528e5b327e2164c" data-figma-image-hash="c5842e6e62f0fcd1a26d496c86e06ebc" class="frame-1-2 w-variant-44ca4943-66de-208c-defa-bab8e2245f0f"></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a81e7955aa1892d5f67e381" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/js/webflow.schunk.56cc6380bad280e6.js" type="text/javascript" integrity="sha384-1bfHVu0BW/T8ibNTGjdGo/y2VAuLPdfTyUYt5NLF9tvQa9uUM0HVSHACOYZL+Oi1" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6a81e7955aa1892d5f67e381/js/webflow.a9ba356d.d790faab5eca85f2.js" type="text/javascript" integrity="sha384-8hwrC/NV4OSVSidC9MTWLDeeg1jSOl1uAsJFw5gGTgUPrsQC46VOTgPqiwYSOKAh" crossorigin="anonymous"></script><script>
+(function () {
+  var h = document.documentElement;
+  function navBtn() { return document.querySelector('.w-nav-button'); }
+  function sync() { var b = navBtn(); if (b) { h.classList.toggle('nav-open', b.classList.contains('w--open')); } }
+  function shut() { var b = navBtn(); if (b && b.classList.contains('w--open')) { b.click(); } h.classList.remove('nav-open'); }
+  function initNav() {
+    var b = navBtn();
+    if (!b) { setTimeout(initNav, 150); return; }
+    new MutationObserver(sync).observe(b, { attributes: true, attributeFilter: ['class'] });
+    sync();
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { shut(); } });
+    var m = document.querySelector('.nav-menu-custom');
+    if (m) { m.addEventListener('click', function (e) { if (e.target.closest('a')) { shut(); } }); }
+  }
+
+  /* Impact, Real Builds. The cards flip on :hover, which touch cannot trigger.
+     A delegated document-level click does NOT fire on iOS for taps on
+     non-interactive elements, so the listener is attached to each card and each
+     card is given cursor:pointer, which is what makes WebKit treat it as
+     tappable. The cards sit in a horizontal swipe rail, so a tap is only
+     counted when the finger moved less than 10px; otherwise scrolling the rail
+     would flip cards by accident. click is kept as a fallback and suppressed
+     for 700ms after a handled touch so one tap never toggles twice. */
+  function initFlip() {
+    if (!window.matchMedia('(hover: none), (pointer: coarse)').matches) { return; }
+    var cards = document.querySelectorAll('.im-flip');
+    if (!cards.length) { setTimeout(initFlip, 250); return; }
+    for (var i = 0; i < cards.length; i++) {
+      (function (card) {
+        card.style.cursor = 'pointer';
+        var sx = 0, sy = 0, moved = false, lastTouch = 0;
+        card.addEventListener('touchstart', function (e) {
+          var t = e.changedTouches[0];
+          sx = t.clientX; sy = t.clientY; moved = false;
+        }, { passive: true });
+        card.addEventListener('touchmove', function (e) {
+          var t = e.changedTouches[0];
+          if (Math.abs(t.clientX - sx) > 10 || Math.abs(t.clientY - sy) > 10) { moved = true; }
+        }, { passive: true });
+        card.addEventListener('touchend', function () {
+          if (moved) { return; }
+          lastTouch = Date.now();
+          card.classList.toggle('is-flipped');
+        });
+        card.addEventListener('click', function () {
+          if (Date.now() - lastTouch < 700) { return; }
+          card.classList.toggle('is-flipped');
+        });
+      })(cards[i]);
+    }
+  }
+
+  function lottieCover() {
+    if (!window.matchMedia('(max-width: 991px)').matches) { return; }
+    var fill = document.querySelector('.hm-hero-lottie-fill');
+    if (!fill) { return; }
+    var cover = function () {
+      var s = fill.querySelector('svg');
+      if (s) { s.setAttribute('preserveAspectRatio', 'xMidYMid slice'); return true; }
+      return false;
+    };
+    if (!cover()) {
+      new MutationObserver(function (m, o) { if (cover()) { o.disconnect(); } }).observe(fill, { childList: true, subtree: true });
+    }
+  }
+
+  function boot() { initNav(); initFlip(); lottieCover(); }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', boot); } else { boot(); }
+})();
+</script></body></html>

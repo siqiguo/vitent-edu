@@ -6,6 +6,7 @@
 
 ```text
 source/
+├── competitor-curricula/   竞品公开课程页、课程目录和项目清单快照
 ├── project-documents/       项目早期讨论稿的原始 DOCX
 └── standards/               课程标准与学生能力框架原文
     ├── china/               中国义务教育课程方案和课程标准
@@ -18,11 +19,12 @@ source/
 | 分类 | 内容 | 文件数量 | 详细索引 |
 | --- | --- | ---: | --- |
 | 项目原稿 | 商业模式、完整讨论稿、单节课结构设计 | 3 份 DOCX | [project-documents](project-documents/) |
+| 竞品课程资料 | 15 个国内外产品的公开课程页、项目页和资源索引 | 31 份网页/索引文件 | [竞品课程资料索引](competitor-curricula/README.md) |
 | 中国标准 | 义务教育课程方案及16门课程标准（2022年版）、两份中小学AI教育指南（2025） | 17 份 PDF、2 份 HTML | [中国标准索引](standards/china/README.md) |
 | 美国标准 | CCSS、NGSS、CSTA、WIDA、NCAS、AI4K12 | 15 份 PDF | [美国标准索引](standards/us/README.md) |
 | 国际框架 | UNESCO学生人工智能能力框架（2024）、OECD/欧盟AI素养框架（2026） | 2 份 PDF | [国际标准索引](standards/international/README.md) |
 
-共归档 39 份原始文件：3 份 DOCX、34 份 PDF、2 份 HTML。
+共归档 70 份原始文件或网页快照，其中本次新增竞品课程资料 31 份。
 
 ## 维护规则
 

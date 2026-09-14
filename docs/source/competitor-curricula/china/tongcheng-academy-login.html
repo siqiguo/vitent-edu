@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html class="height-100">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="renderer" content="webkit">
+        <title>登录</title>
+        <link rel="stylesheet" href="https://cdn.tmooc.cn/bsfile/css/iconfont.css"/>
+        <link rel="stylesheet" href="https://cdn.tmooc.cn/bsfile/css/style.css"/>
+          <script src="https://cdn.tmooc.cn/bsfile/js/jquery-3.6.0.min.js"></script>
+        <style>
+            .height-100{height:100%;}
+            body.height-100{padding-bottom:240px;min-height:971px;position:relative;}
+            .page-footer.bd-con-lty{height:240px;position:absolute;bottom:0;width:100%;} 
+        </style>
+	</head>
+	<body class="bgcolor-f6f5fa height-100">
+	    <div class="page-header">
+	       
+<script>
+window.IS_UC_PAGE_ = true; //用户中心页面标识
+PAGENAMESC="注册";
+</script>
+
+<div class="md2018033001lty">
+    <div class="container">
+        <div class="tmooc-logo pull-left">
+            <a href="https://www.tmooc.cn">
+                <img class="default-logo" src="https://cdn.tmooc.cn/tmooc-web/css/img/tmooc-logo.png"/>
+                <img class="blue-logo" src="https://cdn.tmooc.cn/tmooc-web/css/img/tmooc-logo2.png"/>
+            </a>
+        </div>
+        <div id="no-login-nav">
+	        <ul class="slide-nav pull-left clearfix" id="js_slide_nav">
+	            <li><a href="https://www.tmooc.cn">首页</a></li>
+	            <li><a href="https://www.tmooc.cn/free/">免费课</a></li>
+	            <li><a href="https://www.tmooc.cn/live/">直播课</a></li>
+	            <!-- <li><a href="https://www.tmooc.cn/vip/">会员课</a></li> -->
+	            <li><a href="https://www.tmooc.cn/advanced/">精品课</a></li>
+	            <li><a href="javascript:void(0);" onclick="checkTtsUser()">线上班</a></li>
+	            <li><a href="https://www.tmooc.cn/offline_courses/">线下班</a></li>
+
+                <li><a href="javascript:window.open('https://bbs.tedu.cn/')">大内高手</a></li>
+
+                <li><a href=" https://edu.tedu.cn/?ly=tmooc&wz=dh-xlts" target="_blank">学历提升</a></li>
+
+                <!-- <li><a href="https://www.tmooc.cn/activities/">最新活动</a></li>  -->
+	        </ul>
+        </div>
+        <div class="hide" id="login-nav">
+	        <ul class="slide-nav pull-left clearfix" id="js_slide_nav">
+	            <li><a href="https://www.tmooc.cn">首页</a></li>
+	            <li><a href="https://www.tmooc.cn/free/">免费课</a></li>
+	            <li><a href="https://www.tmooc.cn/live/">直播课</a></li>
+	            <!-- <li><a href="https://www.tmooc.cn/vip/">会员课</a></li> -->
+	            <li><a href="https://www.tmooc.cn/advanced/">精品课</a></li>
+	            <li><a href="javascript:void(0);" onclick="checkTtsUser()">线上班（VIP）</a></li>
+	            <li><a href="https://www.tmooc.cn/offline_courses/">线下班</a></li>
+
+                <li><a href="javascript:window.open('https://bbs.tedu.cn/')">大内高手</a></li>
+
+                <li><a href=" https://edu.tedu.cn/?ly=tmooc&wz=dh-xlts" target="_blank">学历提升</a></li>
+
+                <!-- <li><a href="https://www.tmooc.cn/activities/">最新活动</a></li> -->
+						<li><a href="/userCenter/toUserSingUpCoursePage">我的课程</a></li>
+	        </ul>
+        </div>
+        <div class="login-area pull-right " id="login_statelty">
+            <!--未登录状态-->
+            <ul class="no-login clearfix">
+						<li><a id="register_xxw" href="/login/jumpToRegister?clickEntrance=1">注册</a></li>
+                <li class="line">|</li>
+                <li><a id="login_xxw" href="#">登录</a></li>
+            </ul>
+            <!--登录状态-->
+            <div class="logined hide">
+                <div class="md-2018040202-lty">
+                    <div class="drop-menu" id="js_init_dropmenu">
+                        <div class="md-2018040801-lty">
+					<a href="/userCenter/toUserCenterPage">
+                                <img class="js-headpic-xxw" id="tobbar_userimg" src="/__recovery_static/user-head.jpg" alt=""/>
+                            </a>
+                        </div>
+                        <ul class="drop-menu-list bgcolor-fff">
+<!--                             <li class="user-name link-color"><a href="#" id="tobbar_username">XXX</a></li>
+ -->                           
+						<li class="user-name link-color"><a href="/userCenter/toUserSingUpCoursePage" id="tobbar_username">我的课程</a></li>
+ 							 <!-- <li><a href="#" id="js_go_ynote">我的云笔记</a></li> -->
+						<li><a href="/userCenter/jumpToUserCenterInfo" >账号设置</a></li>
+ 							<!-- <li><a href="http://1.94.250.52:8080/tmoocVipCenter/vipcenter" >会员中心</a></li> -->
+						<li><a href="/message/toHave" >消息中心</a></li>
+<!--                             <li id="js_isshow_tts" style="display: none;"><a style="cursor: pointer;" onclick="checkTtsUser()">我的TTS</a></li>
+ -->                            <li><a href="#" id="js_loginout">退出登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-wrap pull-right">
+            <div class="search-area">
+                <input id="js_search_inp" type="text" class="search-input" placeholder="您想学的课程"/>
+            </div>
+            <div class="showhide-search" id="js_control_search">
+                <i class="cusfont cusfont-search"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+	  <!--       <div style="height: 70px; background: #00A4FF;">这里是页头占位</div> -->
+        </div>
+        <div class="page-con" style="padding: 70px 0 30px;">
+            <form autocomplete="off">
+                <div class="md-2018040402-ll js-md-180417-login-cj" style="margin: 0 auto;">
+                    <div class="js-log-type" data-logtype='0'>
+                        <div class="tit">登录</div>
+                        <div id="js_login_form" class="form-ele-box">
+                            <div class="form-item clearfix">
+                                <div class="form-inp-area">
+                                    <input id="js_account_pm" class="form-input" value="" type="text" cusrule="mail_phone" placeholder="邮箱或手机号" >
+                                    <span class="form-tips">邮箱或手机号格式错误</span>
+                                </div>
+                            </div>
+                            <div class="form-item clearfix">
+                                <div class="form-inp-area">
+                                    <input id="js_password" class="form-input" value="" type="password" placeholder="密码" >
+                                    <span class="form-tips">包含数字、字母、下划线的6-18位</span>
+                                </div>
+                            </div>
+                            <div id="js_validate_img_area" class="form-item clearfix" style="display: none;">
+                                <div class="form-inp-area">
+                                    <input id="js_imgcode" class="form-input pull-left" value="" type="text" placeholder="验证码"  style="width: 80px; margin-right: 15px;">
+                                    <img id="js_validate_img" class="pull-left code-img js-validate-img" src="" height="40px" width="80px" style="cursor:pointer;margin-right: 15px;">
+                                    <div class="form-inlineblock pull-left code-btn js-validate-img">
+                                        <span class="verflag" style="cursor: pointer;">看不清楚？换一张</span>
+                                        <i class="verflag"></i>
+                                    </div>
+                                    <span class="form-tips">验证码错误</span>
+                                </div>
+                            </div>
+                            <div class="form-item clearfix">
+                                <button id="js_submit_login" class="form-btn form-btn-blue width-100" type="button">登录</button>
+                            </div>
+                            <div class="form-item clearfix" style="font-size: 12px;">
+                                登录表示您同意
+                                <a href="https://www.tmooc.cn/user-agreement/index.shtml" target="_blank" class="text-danger color-red">
+                                    《达内用户注册协议》 </a>、
+                                <a href="https://www.tmooc.cn/user-agreement/personal-policy.shtml" target="_blank" class="text-danger color-red">
+                                    《个人信息及隐私保护政策》 </a> 和
+                                <a href="https://www.tmooc.cn/user-agreement/children-policy.shtml" target="_blank" class="text-danger color-red">
+                                    《儿童隐私保护规则》 </a>
+                            </div>
+
+                            <div class="form-item clearfix" style="font-size: 12px;">
+                                <div class="form-checkbox pull-left" style="display: none;">
+                                    <label><input type="checkbox" checked="checked" /><span>下次自动登录</span></label>
+                                </div>
+                                <div class="pull-right color-aaa" style="padding-top: 2px;">
+                                    <a href="jumpToUserFindPassword" class="color-aaa">忘记密码</a>&nbsp;|&nbsp;<a href="jumpToRegister?clickEntrance=2" id="register_msg_tos" class="color-aaa">注册</a>
+                                </div>
+                            </div>
+                            <div class="other-loginbox">
+                                <p class="c-tit color-aaa text-center">第三方账号登录</p>
+                                <div class="c-btns">
+                                    <div class="c-fbtn">
+                                        <a class="c-btn js-log-type-cut"><i class="cusfont cusfont-wechat"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 微信 -->
+                    <div class="js-log-type" data-logtype='3' style="display: none;">
+                        <div id="js_wx_code_log" class="text-center"></div>
+                        <div class="other-loginbox">
+                            <div class="c-btns">
+                                <div class="c-fbtn js-log-type-cut">返回账号登录</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="page-footer bd-con-lty">
+                     
+<div class="container">
+    <div class="md2018040301lty clearfix">
+        <div class="bt-fr clearfix pull-right">
+            <div class="b-info text-right pull-left">
+                <p>达内在线WWW.TMOOC.CN 专注于IT职业技能培训 </p>
+                <p>涵盖20余门课程体系，致力于打造最权威的IT职业教育学习平台</p>
+            </div>
+            <div class="ewm-b pull-left">
+                <img src="https://cdn.tmooc.cn/tmooc-web/css/img/erweima.jpg" width="75" height="75" alt="" />
+            </div>
+        </div>
+          <div class="bt-lf clearfix pull-left">
+            <ul class="links clearfix">
+                <li><a href="https://www.tmooc.cn/aboutus/index.shtml">关于我们</a></li>
+                <li>|</li>
+                <li><a href="https://www.tmooc.cn/join/index.shtml">招聘信息</a></li>
+                <li>|</li>
+                <li><a href="https://www.tmooc.cn/contactus/index.shtml">联系我们</a></li>
+                <li>|</li>
+                <li><a href="https://www.tmooc.cn/business/index.shtml">商务合作</a></li>
+                <!-- <li>|</li>
+                <li><script src="https://s13.cnzz.com/z_stat.php?id=1273669604&web_id=1273669604" language="JavaScript"></script></li> -->
+            </ul> 
+            <div class="copyright">Copyright © 北京达内金桥科技有限公司版权所有 
+            	<a target="_blank" href="https://beian.miit.gov.cn" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color:#666;">
+            		<span>京ICP备12003709号-3</span>
+            	</a>
+                <a target="_blank" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029572" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color:#666;">
+                    <img src="https://cdn.tmooc.cn/tmooc-web/css/img/beianh2019082901.png" style="float:left;margin: 0 5px;"/>
+                    <span>京公网安备 11010802029572号</span></a>
+            </div> 
+        </div>
+        <div class="bt-line"></div>
+    </div>
+</div>
+
+<!-- 支付状态弹窗 start  -->
+<div style="display: none;">
+    <div class="md-2018040423-ll cus-win-model" id="md_2018040423_ll">
+        <div class="tit">支付完成</div>
+        <p style="text-align: center;"><img src="https://cdn.tmooc.cn/tmooc-web/css/img/img2018042301_ll.png"/></p>
+        <div style="text-align: center; padding-top: 10px;">
+        	<p class="color-red" id="js_error_tips" style="margin: 5px 0;opacity: 0;"><i class="cusfont cusfont-warning "></i>未支付成功，请在支付页面继续完成支付！</p>
+            <a class="form-btn form-btn-default js-closewin-btn" style="line-height: 24px; margin: 0 10px;" href="https://www.tmooc.cn/help/index.shtml" target="_blank">支付遇到问题</a>
+            <button class="form-btn form-btn-blue" type="button" id="js_pay_btn">已支付完成</button>
+        </div>
+        <span class="cus-win-modelclose js-closewin-btn"><i class="cusfont cusfont-close font-14"></i></span>
+    </div>
+</div>
+<!-- 支付状态弹窗 end -->
+<!-- TTS用户验证start -->
+<div style="display: none;">
+    <div class="md2018041301lty bgcolor-fff cus-win-model" id="js_yz_video">
+        <div class="tit-md">
+            <span>提示</span>
+            <span class="cus-win-modelclose js-closewin-btn"><i class="cusfont cusfont-close font-14"></i></span>
+        </div>
+        <div class="con-bd">
+            <p class="font-16 text-center">您需要进行账号验证<br />请<a href='/userCenter/toUserPayCoursePage' class="link-color">点击此处</a>跳转</p>
+        </div>
+    </div>
+</div>
+<!-- TTS用户验证end -->
+
+ <script src="https://cdn.tmooc.cn/bsfile/js/layer/layer.js"></script>
+ <script src="https://cdn.tmooc.cn/bsfile/js/colorbox/jquery.colorbox-min.js"></script>
+ <script src="https://cdn.tmooc.cn/bsfile/js/app.js"></script>
+<script type="text/javascript">
+    // Standalone restore routing: keep restored business modules on this ECS.
+    (function () {
+        var restoreScheme = window.location.protocol + '//';
+        var localOrigins = {
+            'www.tmooc.cn': restoreScheme + 'www.61ai.com',
+            'tmooc.cn': restoreScheme + 'www.61ai.com',
+            'uc.tmooc.cn': window.location.origin,
+            'tmoocapi.tmooc.cn': restoreScheme + 'tmoocapi.61ai.com',
+            'tmoocconsole.tmooc.cn': restoreScheme + 'tmoocconsole.61ai.com',
+            'tts.tmooc.cn': restoreScheme + 'tts.61ai.com',
+            'ttsapi.tmooc.cn': restoreScheme + 'ttsapi.61ai.com',
+            'ttsconsole.tmooc.cn': restoreScheme + 'ttsconsole.61ai.com',
+            'tes.tmooc.cn': restoreScheme + 'tes.61ai.com',
+            'tesapi.tmooc.cn': restoreScheme + 'tesapi.61ai.com',
+            'tesconsole.tmooc.cn': restoreScheme + 'tesconsole.61ai.com',
+            'ol.tmooc.cn': restoreScheme + 'ol.61ai.com'
+        };
+        var recoveryOrigins = {
+            '1.94.250.52:8080': window.location.origin,
+            '1.94.250.52:8081': restoreScheme + 'tmoocapi.61ai.com',
+            '1.94.250.52:8083': restoreScheme + 'tmoocconsole.61ai.com',
+            '1.94.250.52:8084': restoreScheme + 'tts.61ai.com',
+            '1.94.250.52:8085': restoreScheme + 'ttsapi.61ai.com',
+            '1.94.250.52:8086': restoreScheme + 'ttsconsole.61ai.com',
+            '1.94.250.52:8088': restoreScheme + 'tes.61ai.com',
+            '1.94.250.52:8089': restoreScheme + 'tesapi.61ai.com',
+            '1.94.250.52:8090': restoreScheme + 'tesconsole.61ai.com',
+            '1.94.250.52:8092': restoreScheme + 'ol.61ai.com'
+        };
+
+        function localizeUrl(url) {
+            if (!url || !/^https?:\/\//i.test(url)) {
+                return url;
+            }
+            var parsed = document.createElement('a');
+            parsed.href = url;
+            var origin = recoveryOrigins[parsed.host] || localOrigins[parsed.hostname];
+            if (!origin) {
+                return url;
+            }
+            return origin + parsed.pathname + parsed.search + parsed.hash;
+        }
+
+        window.RESTORE_LOCALIZE_URL = localizeUrl;
+        window.UC_PATH_ = localOrigins['uc.tmooc.cn'];
+        window.TTS_MYTTS_URL = restoreScheme + 'study.61ai.com';
+        window.www_path = localOrigins['www.tmooc.cn'];
+        window.QS_SERVER_URL = localOrigins['uc.tmooc.cn'] + '/restore-qs/';
+        window.examPATH = localOrigins['tes.tmooc.cn'] + '/exam/examByCourse?';
+
+        $(function () {
+            $('a[href], form[action]').each(function () {
+                var attribute = this.tagName.toLowerCase() === 'form' ? 'action' : 'href';
+                var original = $(this).attr(attribute);
+                $(this).attr(attribute, localizeUrl(original));
+            });
+        });
+    })();
+</script>
+<script src="https://cdn.tmooc.cn/tmooc-web/js/sc/sensorsdatazdy.js"></script>
+ 
+<script type="text/javascript">
+    $(function(){
+        getUserLoginStatus(); //获取用户登录状态信息
+        /*点击搜索按钮*/
+        $('#js_control_search').click(function(){
+            var k_ = $.trim($('#js_search_inp').val());
+
+            if(window.SEARCHPAGE_){
+                if(k_){
+                    $('.js-key-word').eq(0).text(k_);
+
+                    resetSearch(1);
+
+                    flag_ = true;
+
+                    getClasslset(getSearchobj({searchCore:k_}));
+
+                }
+                layer.msg('请输入搜索内容');
+                return;
+            }else {
+                location.href=RESTORE_LOCALIZE_URL('https://www.tmooc.cn/search/index.shtml#searchCore='+encodeURI(encodeURI(k_)));//+'categoryId='+($(".js-lv-xxw span.curx").data('id') || "0");
+            }
+            $('#js_search_inp').val('');
+        });
+        $('#js_search_inp').keypress(function(e){
+            if(e.keyCode===13){
+                $('#js_control_search').trigger('click');
+            }
+        });
+    });
+</script>
+
+        </div>
+
+        <script src="https://cdn.tmooc.cn/bsfile/js/main.js"></script>
+        <script src="https://cdn.tmooc.cn/bsfile/js/jsmd5.js"></script>
+        <script src="https://cdn.tmooc.cn/bsfile/js/jquery-cookie.js"></script>
+        <script src="https://cdn.tmooc.cn/bsfile/js/agreement.js"></script>
+
+        <script type="text/javascript">
+            // Restored standalone deployment: keep authentication on this host.
+            UC_PATH_ = window.location.origin;
+            QS_SERVER_URL = window.location.origin + "/restore-qs/";
+            initLoginFn();
+            // 登录成功后保持按钮锁定，等待现有后置检查完成并跳转。
+            $(document).ajaxSuccess(function(event, xhr, settings, data) {
+                var isLoginRequest = settings.type && settings.type.toUpperCase() === 'POST'
+                    && (settings.url === UC_PATH_ + '/login' || settings.url === '/login');
+                if (isLoginRequest && data && (Number(data.code) === 1 || Number(data.code) === 2)) {
+                    $('#js_submit_login')
+                        .data('isclick', true)
+                        .prop('disabled', true)
+                        .html('登录成功，正在进入...');
+                }
+            });
+            $(function(){
+            	  (function() {
+            	    var wx = document.createElement("script");
+            	    wx.src = "https://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js";
+            	    var wx_s = document.getElementsByTagName("script")[0]; 
+            	    wx_s.parentNode.insertBefore(wx, wx_s);
+            	  })();
+            	});
+        </script>
+	</body>
+</html>

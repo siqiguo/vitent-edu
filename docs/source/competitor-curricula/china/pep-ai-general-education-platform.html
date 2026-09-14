@@ -1,0 +1,531 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="../../../images/cp.css" type="text/css" rel="stylesheet" />
+<link href="../../../images/base.css" type="text/css" rel="stylesheet" />
+
+<script src="https://www.pep.com.cn/images/jquery_pepcp.js"></script>
+
+<title>人教人工智能通识教育平台</title>
+<style>
+.m_s{ display:none;}
+
+
+.jn_l li li a{ background:none; padding-left:30px;}
+.jn_l li li a:hover{ background:#25b782;}
+.jn_l li li{ background:none;}
+.jn_l li{ height:auto !important;}
+.jin_left>ul>li{ height:auto;}
+.jin_left>ul>li li a{padding:0;font-size:14px;background:none;}
+.jin_left>ul>li li.now1 a{ color:#f13c05;}
+.jin_left>ul>li div.jin1 a{background:none;}
+.jin_baokanl img{ max-width:100%;}
+#curpage {
+    float: right;
+    font-size: 12px;
+    color: #888888;
+    padding-top:4px;
+}
+#curpage a{
+    color: #888888;
+}
+.jin1 li>a.act{background: #25b782 url(jn_shuzij_03.jpg) no-repeat 15px; color: #fff;}
+</style>
+<script type="text/javascript">
+
+	$(function(){
+		$(".menu1 a").click(function(){
+
+			if($(this).next().is(":hidden")){
+				$(this).next().show();
+				$(this).css("background","url(../../../images/914j.png) no-repeat 15px");
+			}else{
+				$(this).next().hide();
+				$(this).css("background","url(../../../images/914i.png) no-repeat 15px");
+			}
+
+
+		})
+	
+})
+
+</script>
+</head>
+<body>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .trs23_header {
+    max-width: 1920px;
+    height: 160px;
+    background: #229065;
+    margin: 0 auto;
+  }
+
+  .trs23_header .trs23_top {
+    width: 1140px;
+    margin:0 auto;
+    height: 80px;
+    padding: 25px 0;
+    box-sizing: border-box;
+  }
+
+  .trs23_header .trs23_top .trs23_logo {
+    width: 492px;
+    height: 29px;
+    float: left;
+    background: url(https://www.pep.com.cn/images/trs23_logo.png);
+  }
+
+  .trs23_header .trs23_top .trs23_search {
+    width: 280px;
+    height: 30px;
+    background: #F6F6F6;
+    border: 1px solid #999999;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+  }
+
+  .trs23_header .trs23_top .trs23_search input {
+    width: 230px;
+    height: 27px;
+    border: 0;
+    outline: none;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    background: none;
+    font-size: 16px;
+  }
+
+  .trs23_header .trs23_top .trs23_search i {
+    width: 21px;
+    height: 21px;
+    background: url(https://www.pep.com.cn/images/trs23_search.png);
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .trs23_header .trs23_nav {
+    width: 100%;
+    height: 80px;
+    background:#fff;
+  }
+
+  .trs23_header .trs23_nav ul {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+
+  .trs23_header .trs23_nav li {
+    display: inline-block;
+    font-size: 22px;
+    overflow: hidden;
+  }
+
+  .trs23_header .trs23_nav li a {
+    font-size: 22px;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-right: 8px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 4px;
+    float: left;
+  }
+
+  .trs23_header .trs23_nav li span {
+    margin-right: 6px;
+    float: right;
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+  }
+
+  .trs23_header .trs23_nav li.active a {
+    background: #229065;
+    color: #fff;
+  }
+</style>
+
+  <style>
+    .jn_ry1 li {
+      overflow: visible;
+    }
+
+    .jn_right {
+      background: #fff;
+      float: none;
+      width: auto;
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    .jn_ry1 {
+      width: 90%;
+      margin: 0px auto;
+    }
+
+    .top1 .seacrh input.text {
+      *margin: 7px 0px 7px -55px;
+    }
+  </style>
+
+<div class="trs23_header">
+  <div class="trs23_top">
+    <div class="trs23_logo">
+      <a href="https://www.pep.com.cn"></a>
+    </div>
+    <div class="trs23_search">
+      <input id="searchword" onkeydown="onKeyDownSearch(event)" name="searchword" />
+      <i  onclick="post_searchword()"></i>
+
+
+      <script>
+        $(function () {
+          $(".con_nav_ewm_rjwsy2020 li").hover(function () {
+            $(this).find(".con_header_ewm_rjwsy2020").show();
+          }, function () {
+            $(this).find(".con_header_ewm_rjwsy2020").hide();
+          })
+
+        })
+
+
+        function post_searchword () {
+          var getval = document.getElementById("searchword").value;
+          if (getval == "" || getval == "关键词") {
+            alert("关键词不能为空");
+          } else {
+            getval = unescape(getval);
+            var containSpecial = RegExp(/[(\~)(\!)(\@)(\#)(\$)(\%)(\^)(\&)(\*)(\()(\))(\-)(\_)(\+)(\=)(\[)(\])(\{)(\})(\|)(\\)(\;)(\:)(\')(\")(\,)(\.)(\/)(\<)(\>)(\?)(\)]+/);
+            if (containSpecial.test(getval)) {
+              //alert("关键词里面不能含有特殊字符");
+              alert("您搜索的关键词中包含以下不可搜索字符:\~\!\@\#\$\%\^\&\*\(\)\-\_\+\=\[\]\{\}\|\\\:\'\"\,\.\/\<\>\? 请修改后再进行搜索");
+              return;
+            }
+            document.location.href = "/search/searchvaluefrowas/?searchword=" + encodeURIComponent(getval);
+          }
+        }
+
+        function onKeyDownSearch (event) {
+          if (window.event) {  // IE8 以及更早版本
+            if (event.keyCode == 13) {
+              post_searchword();
+            }
+          } else if (event.which) { // IE9/Firefox/Chrome/Opera/Safari
+            if (event.which == 13) {
+              post_searchword();
+            }
+          }
+        }
+
+      </script>
+
+
+
+
+    </div>
+  </div>
+  <div class="trs23_nav">
+    <ul>
+      <li>
+        <a href="https://www.pep.com.cn">首页</a><span>|</span>
+      </li>
+      <li id="lm_">
+        <a href="https://www.pep.com.cn/rjgl/rjjj/">关于人教</a><span>|</span>
+      </li>
+      <li id="lm_">
+        <a href="https://www.pep.com.cn/rjdt/rjdt/">新闻动态</a><span>|</span>
+      </li>
+      <li id="lm_">
+        <a href="https://www.pep.com.cn/rjdt/xw_gy/">社会责任</a><span>|</span>
+      </li>
+      <li>
+        <a href="https://www.pep.com.cn/kcs/" target="_blank">科研学术</a><span>|</span>
+      </li>
+      <li id="lm_">
+        <a href="https://www.pep.com.cn/rjyx/" target="_blank">人教视频</a><span>|</span>
+      </li>
+      <li>
+        <a href="https://www.pep.com.cn/products/" >人教好书</a><span>|</span>
+      </li>
+      <li id="lm_">
+        <a href="https://www.pep.com.cn/xw/zt/">人教专题</a><span>|</span>
+      </li>
+      <li>
+        <a href="https://px.pep.com.cn/">培训服务</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- class="active" -->
+
+<script>
+  $(document).ready(function () {
+    nav_style("lm_172282");
+  });
+
+  function nav_style (obj) {
+    $("#" + obj).addClass('active');
+  }
+</script>
+<div class="main_er">
+	<div class="main_ti">
+    	<a href="#" class="left">解决方案</a>
+        
+        <span>当前位置：<a href="../../../" target="_blank" title="首页" class="CurrChnlCls">首页</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;<a href="../../" target="_blank" title="数字产品" class="CurrChnlCls">数字产品</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;<a href="../" target="_blank" title="解决方案" class="CurrChnlCls">解决方案</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;<a href="./" target="_blank" title="人教人工智能通识教育平台" class="CurrChnlCls">人教人工智能通识教育平台</a></span>
+      <div class="clear"></div>
+  </div>
+    <div class="main1">
+     <div class="jn_l left">
+
+
+
+
+        <ul>
+
+        <li class="menu1" id='qk189001'>
+        <a style="background:url(../../../images/914j.png) no-repeat 15px; cursor: pointer;" >解决方案</a>
+        <div class="jin_l1 jin1" >
+        <ul>
+
+
+	<li id='zqk189005'><a href="../rjszjc/">人教数字教材</a></li>
+
+
+	<li id='zqk189006'><a href="../rjszxy/">数字教材垂直服务平台</a></li>
+
+
+	<li id='zqk198885'><a href="../rczhjxpt/">人教智慧教学平台</a></li>
+
+
+	<li id='zqk204807'><a href="../rjyyjxxt/">人教英语教学系统</a></li>
+
+
+	<li id='zqk189009'><a href="../rjxxjsszzypt/">人教信息科技数字资源平台</a></li>
+
+
+	<li id='zqk209359'><a href="./">人教人工智能通识教育平台</a></li>
+
+ 
+       
+
+ 
+        </ul>
+        </div>
+      </li>
+
+
+       
+        <li class="menu1" id='qk189002'>
+        <a style="background:url(../../../images/914j.png) no-repeat 15px; cursor: pointer;" >平台服务</a>
+        <div class="jin_l1 jin1" >
+        <ul>
+
+
+	<li id='zqk189010'><a href="../../ptfw/rjw/">人教网</a></li>
+
+
+	<li id='zqk189011'><a href="../../ptfw/pxpt/">人教教师培训服务平台</a></li>
+
+
+	<li id='zqk201723'><a href="../../ptfw/3q3z/">三区三州教学研修平台</a></li>
+
+ 
+       
+
+ 
+        </ul>
+        </div>
+      </li>
+
+
+       
+        <li class="menu1" id='qk189003'>
+        <a style="background:url(../../../images/914j.png) no-repeat 15px; cursor: pointer;" >移动学习</a>
+        <div class="jin_l1 jin1" >
+        <ul>
+
+
+	<li id='zqk189016'><a href="../../ydxx/rjdd/">人教点读</a></li>
+
+
+	<li id='zqk189012'><a href="../../ydxx/rjky/">人教口语</a></li>
+
+ 
+       
+
+ 
+        </ul>
+        </div>
+      </li>
+
+
+       
+
+        </ul>
+
+
+     </div>
+    	
+      <div class="main1_right">
+      <div class="jn_xxr">
+      <h1>人教人工智能通识教育平台</h1>
+    
+<div class=TRS_Editor><div class="Custom_UnionStyle">
+<p style="text-align: center;"><img src="./202510/W020251011385850022451.jpg" style="border-width: 0px;" alt="" oldsrc="W020251011385850022451.jpg" /></p>
+<p style="text-align: justify;">　　【<b>产品介绍</b>】</p>
+<p style="text-align: justify;">　　人教人工智能通识教育平台是为中小学人工智能课程实施与人工智能素养培养提供支撑的数字化综合性解决方案。</p>
+<p style="text-align: justify;">　　平台专为中小学阶段师生设计，依据教育部基础教育教学指导委员会发布的《中小学人工智能通识教育指南(2025年版)》要求，全新研发了体系化人工智能通识教育课程资源，同步配备AI助教助学、AI素养测评、AI创新指导等智能辅助工具，旨在提供兼具前瞻性、专业性与趣味性的智能化教学环境，以支持教师高效开展人工智能通识教育教学，帮助学生循序渐进提升人工智能素养与创新思维。人教人工智能通识教育平台集中小学人工智能通识教育课程资源、AI体验工具、AI实训环境于一体，并能与中小学AI教学实验硬件实现互联互通，致力于打造符合中国中小学教育教学特点的AI学习生态系统。</p>
+<p style="text-align: center;"><img src="./202510/W020251011385850046701.jpg" style="border-width: 0px;" alt="" oldsrc="W020251011385850046701.jpg" /></p>
+<p style="text-align: justify;">　　【<b>产品特点</b>】</p>
+<p style="text-align: center;"><img src="./202510/W020251011385850058864.jpg" style="border-width: 0px;" alt="" oldsrc="W020251011385850058864.jpg" /><br />
+人教人工智能通识教育平台网址：<a href="https://aiedu.mypep.cn" target="_blank">https://aiedu.mypep.cn</a></p>
+<p style="text-align: justify;">　　【<b>应用场景</b>】</p>
+<p style="text-align: justify;">　　人教人工智能通识教育平台为师生配备了全场景智能AI助手，在教学与学习过程中提供智能化的引导与支持。</p>
+<p style="text-align: justify;">　　【<b>产品体验</b>】</p>
+<p style="text-align: center;"><img src="./202510/W020251011385850074017.png" style="border-width: 0px;" alt="" oldsrc="W020251011385850074017.png" /><br />
+扫码登录</p>
+<p style="font-size: 16px;"><b>　　【咨询热线】</b></p>
+<p style="font-size: 16px;">　　400-699-6958　周一至周五(8:30-16:30)</p>
+<div id="qb-sougou-search" style="display: none; opacity: 0;">
+<p>翻译</p>
+<p>　　搜索</p>
+<p>　　复制</p>
+<p>　　<iframe src="">
+
+</iframe></p>
+</div>
+</div></div>
+
+      </div>
+        
+       
+      </div>
+    </div>
+</div>
+
+
+
+<!--底部样式二-->
+<div class="foot"  style="min-width: 1140px;width: 100%;">
+	<div class="footer_2">
+    	<div class="left">
+        	<ul class="ul_p1">
+
+        		<li><a href="../../lxwm/khfw/202409/t20240913_1995517.shtml" target="_blank" title="联系我们">联系我们</a></li>
+
+        		<li><a href="../../lxwm/khfw/201710/t20171016_1920219.shtml" target="_blank" title="邮购零售">邮购零售</a></li>
+
+        	</ul>
+        </div>
+        <div class="left">
+        	<h3>教辅图书门市电话</h3>
+        	<ul>
+        		<li>010-64044211</li>
+        		<li>011-58759058</li>
+        	</ul>
+        </div>
+        <div class="left">
+        	<h3>电子音像制品门市电话</h3>
+        	<ul>
+        		<li>010-64044211</li>
+                        <li>010-58759303</li>
+        	</ul>
+        </div>
+        <div class="left">
+        	<h3>网络产品咨询电话</h3>
+        	<ul>
+        		<li>010-58759332</li>
+        	</ul>
+        </div>
+        <div class="left">
+        	<h3>学校（团体）业务电话</h3>
+        	<ul>
+        		<li>010-58759205</li>
+        		<li>010-58759310</li>
+        		<li>010-58759341</li>
+        		<li>010-58759317</li>
+        	</ul>
+        </div>
+        <div class="right" style="margin-right:0px;">
+        	<h3>人教期刊咨询电话</h3>
+        	<ul>
+        		<li>010-58758994</li>
+        	</ul>
+        </div>
+    	<div class="clear"></div>
+        
+    </div>
+</div>
+<style>.footer1 p a{font-size: 12px;color: #fff;}
+ul.ul_p1 li a:hover {color: #f13c05}</style>
+<div class="foot1"  style="min-width: 1140px;">
+	<div class="footer1">
+    	<ul>
+            <li><a href="">版权信息</a><span>|</span></li>
+            <li><a href="https://www.peeavp.com.cn/zxzx/lxwm">联系我们</a><span>|</span></li>
+        </ul>
+        <p>&copy; 版权所有 人民教育出版社&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://beian.miit.gov.cn/">京ICP备05019902号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>新出网证（京）字116号</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802038276">京公网安备11010802038276号</a></p>
+    </div>
+</div>
+<!--统计代码start-->
+<div style="display: none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?505934b537b966bd0bc99ecac4714092";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="https://bd-st.mypep.cn/js/points.js"></script>
+<script>
+    window.onload = function(){
+        pepPoints.loader.dataReport({
+            product_id: '300',    // 人教网product_id
+            company: '110000008'  // company
+        });
+    }
+</script>
+
+</div>
+<!--统计代码end-->
+<script>
+$(function(){
+	var dq_id = "#sz209359";
+	var dq_class = "j"+($(dq_id).index()+1);
+	$(dq_id).find("a").attr("class",dq_class);
+	$(".zlm").each(function(index, element) {
+		if($(this).find("div").length==0){
+			$(this).remove();
+		}
+	});
+
+	var dq_lmid = "#zqk209359";
+	$(dq_lmid).children().addClass("act");
+	$(dq_lmid).parents(".jin1").show();
+//$(dq_lmid).parents(".menu1").children("a").css("background","url(../../../images/914j.png) no-repeat 15px");
+});
+</script>
+</body>
+</html>
